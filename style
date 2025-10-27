@@ -1,0 +1,40 @@
+img.object-contain.agency-logo{
+  max-width:140px !important;
+  height: 90px !important;
+}
+body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span:not(span.cpanel) {
+    color: #34343EFF !important;
+}
+body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span, body #app .sidebar-v2-agency .template-library-sidebar-root p, body #app .sidebar-v2-agency .template-library-sidebar-root p span, body #app .sidebar-v2-agency .template-library-sidebar-root div, body #app .sidebar-v2-agency .template-library-sidebar-root div span, body #app .sidebar-v2-agency .template-library-sidebar-root .n-collapse-item__header-main, body #app .sidebar-v2-agency .template-library-sidebar-root .n-collapse-item__header-main, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a span {
+    font-family: Poppins !important;
+}
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    margin-bottom: 7px !important;
+    margin-top: 7px !important;
+}
+body .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a:hover{
+  background: #ccbe6dFF !important;
+}
+body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active span:not(span.cpanel) {
+    color: #ffffff !important;
+}
+body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover span:not(span.cpanel) {
+    color: #ffffff !important;
+}
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover {
+    text-decoration: none !important;
+    width: 94% !important;
+    border: 2px solid #f4f4f4 !important;
+    border-radius: 100px !important;
+    margin-left: 10px !important;
+    margin-bottom: 5px !important;
+}
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a {
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    margin-bottom: 7px !important;
+    margin-top: 7px !important;
+  margin-left: 10px !important;
+}
