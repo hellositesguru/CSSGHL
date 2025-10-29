@@ -38,3 +38,12 @@ body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover span:not(spa
     margin-top: 7px !important;
   margin-left: 10px !important;
 }
+
+a#sb_agency-dashboard::before {
+    content: "\f624";
+    font-family: "Font Awesome 6 Free" !important;
+    font-weight: 900;
+    color: #3ba9d0FF;
+    font-size: 20px;
+    padding-right: 8px;
+}
