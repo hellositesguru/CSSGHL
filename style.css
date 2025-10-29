@@ -47,3 +47,50 @@ a#sb_agency-dashboard::before {
     font-size: 20px;
     padding-right: 8px;
 }
+a#sb_agency-dashboard img {
+    display: none;
+}
+a#sb_agency-saas-configurator::before{
+  content: "\f0c2" !important; /* contoh: cloud icon */
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important;
+  font-size: 20px;
+  padding-right: 8px;
+}
+#sb_agency-saas-configurator span.h-5.w-5.mr-2 {
+    display: none;
+}
+a#sb_location-prospect::before{
+   content: "\f002" !important; /* contoh: Font Awesome search icon */
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important;
+  font-size: 20px;
+  padding-right: 8px;
+}
+#sb_location-prospect img {
+    display: none;
+}
+a#sb_agency-accounts::before{
+  content: "\f0c0" !important; /* Font Awesome users icon */
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important; /* bisa ganti warna */
+  font-size: 20px;
+  padding-right: 8px;
+}
+#sb_agency-accounts img {
+    display: none;
+}
+a#sb_agency-account-snapshots::before{
+  content: "\f0c5" !important; /* Font Awesome 'copy' icon */
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important;
+  font-size: 20px;
+  padding-right: 8px;
+}
+#sb_agency-account-snapshots img {
+    display: none;
+}
