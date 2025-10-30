@@ -45,6 +45,7 @@ a#sb_agency-dashboard::before {
     font-weight: 900;
     color: #3ba9d0FF;
     font-size: 18px;
+  margin-right: 0.7rem;
 }
 a#sb_agency-dashboard img {
     display: none;
@@ -55,6 +56,7 @@ a#sb_agency-saas-configurator::before{
   font-weight: 900 !important;
   color: #3ba9d0 !important;
   font-size: 18px;
+  margin-right: 0.5rem;
 }
 #sb_agency-saas-configurator span.h-5.w-5.mr-2 {
     display: none;
@@ -65,6 +67,7 @@ a#sb_location-prospect::before{
   font-weight: 900 !important;
   color: #3ba9d0 !important;
   font-size: 18px;
+  margin-right: 0.5rem;
 }
 #sb_location-prospect img {
     display: none;
@@ -75,6 +78,7 @@ a#sb_agency-accounts::before{
   font-weight: 900 !important;
   color: #3ba9d0 !important; /* bisa ganti warna */
   font-size: 18px;
+  margin-right: 0.5rem;
 }
 #sb_agency-accounts img {
     display: none;
@@ -85,6 +89,7 @@ a#sb_agency-account-snapshots::before{
   font-weight: 900 !important;
   color: #3ba9d0 !important;
   font-size: 18px;
+  margin-right: 0.8rem;
 }
 #sb_agency-account-snapshots img{
   display:none;
@@ -95,6 +100,7 @@ a#sb_agency-account-reselling::before{
   font-weight: 900 !important;
   color: #3ba9d0 !important;
   font-size: 18px;
+  margin-right: 0.5rem;
 }
 #sb_agency-account-reselling img{
   display:none;
@@ -105,6 +111,7 @@ a#sb_agency-marketplace::before{
   font-weight: 900 !important;
   color: #3ba9d0 !important;
   font-size: 18px;
+  margin-right: 0.7rem;
 }
 #sb_agency-marketplace img{
   display:none;
@@ -115,6 +122,7 @@ a#sb_agency-partners::before{
   font-weight: 900 !important;
   color: #3ba9d0 !important;
   font-size: 18px;
+  margin-right: 0.5rem;
 }
 #sb_agency-partners img{
   display:none;
@@ -125,6 +133,7 @@ a#sb_saas-education::before{
   font-weight: 900 !important;
   color: #3ba9d0 !important;
   font-size: 18px;
+  margin-right: 0.3rem;
 }
 #sb_saas-education img{
   display:none;
@@ -135,6 +144,7 @@ a#sb_agency-ideas::before{
   font-weight: 900 !important;
   color: #3ba9d0 !important;
   font-size: 18px;
+  margin-right: 0.7rem;
 }
 #sb_agency-ideas img{
   display:none;
@@ -145,7 +155,26 @@ a#sb_mobile-app-customiser::before{
   font-weight: 900 !important;
   color: #3ba9d0 !important;
   font-size: 18px;
+  margin-right: 0.7rem;
 }
 #sb_mobile-app-customiser img{
   display:none;
+}
+  a#sb_ghl-swag::before {
+  content: "\f54f" !important; /* Font Awesome 'copy' icon */
+  font-family: "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important;
+  font-size: 18px;
+  margin-right: 0.5rem;
+}
+#sb_ghl-swag img{
+    display:none !important;
+  }
+.sidebar-v2-agency #sidebar-v2 .sm-button::before {
+    color: #7CC4DF !important;
+}
+.agencyDashboardHeader
+ {
+    display: none;
 }
