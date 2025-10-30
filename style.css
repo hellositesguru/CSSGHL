@@ -50,8 +50,8 @@ a#sb_agency-dashboard img {
     display: none;
 }
 a#sb_agency-saas-configurator::before{
-  content: "\f0c2" !important; /* contoh: cloud icon */
-  font-family: "Font Awesome 5 Free" !important;
+  content: "\e601" !important; /* contoh: cloud icon */
+  font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
   color: #3ba9d0 !important;
   font-size: 18px;
