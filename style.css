@@ -44,8 +44,7 @@ a#sb_agency-dashboard::before {
     font-family: "Font Awesome 6 Free" !important;
     font-weight: 900;
     color: #3ba9d0FF;
-    font-size: 20px;
-    padding-right: 8px;
+    font-size: 18px;
 }
 a#sb_agency-dashboard img {
     display: none;
@@ -55,19 +54,17 @@ a#sb_agency-saas-configurator::before{
   font-family: "Font Awesome 5 Free" !important;
   font-weight: 900 !important;
   color: #3ba9d0 !important;
-  font-size: 20px;
-  padding-right: 8px;
+  font-size: 18px;
 }
 #sb_agency-saas-configurator span.h-5.w-5.mr-2 {
     display: none;
 }
 a#sb_location-prospect::before{
-   content: "\f002" !important; /* contoh: Font Awesome search icon */
-  font-family: "Font Awesome 5 Free" !important;
+   content: "\e5c5" !important; /* contoh: Font Awesome search icon */
+  font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
   color: #3ba9d0 !important;
-  font-size: 20px;
-  padding-right: 8px;
+  font-size: 18px;
 }
 #sb_location-prospect img {
     display: none;
@@ -77,8 +74,7 @@ a#sb_agency-accounts::before{
   font-family: "Font Awesome 5 Free" !important;
   font-weight: 900 !important;
   color: #3ba9d0 !important; /* bisa ganti warna */
-  font-size: 20px;
-  padding-right: 8px;
+  font-size: 18px;
 }
 #sb_agency-accounts img {
     display: none;
@@ -88,9 +84,68 @@ a#sb_agency-account-snapshots::before{
   font-family: "Font Awesome 5 Free" !important;
   font-weight: 900 !important;
   color: #3ba9d0 !important;
-  font-size: 20px;
-  padding-right: 8px;
+  font-size: 18px;
 }
-#sb_agency-account-snapshots img {
-    display: none;
+#sb_agency-account-snapshots img{
+  display:none;
+}
+a#sb_agency-account-reselling::before{
+  content: "\e605" !important; /* Font Awesome 'copy' icon */
+  font-family: "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important;
+  font-size: 18px;
+}
+#sb_agency-account-reselling img{
+  display:none;
+}
+a#sb_agency-marketplace::before{
+  content: "\f0a1" !important; /* Font Awesome 'copy' icon */
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important;
+  font-size: 18px;
+}
+#sb_agency-marketplace img{
+  display:none;
+}
+a#sb_agency-partners::before{
+  content: "\f4c6" !important; /* Font Awesome 'copy' icon */
+  font-family: "Font Awesome 5 Free" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important;
+  font-size: 18px;
+}
+#sb_agency-partners img{
+  display:none;
+}
+a#sb_saas-education::before{
+  content: "\f51c" !important; /* Font Awesome 'copy' icon */
+  font-family: "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important;
+  font-size: 18px;
+}
+#sb_saas-education img{
+  display:none;
+
+a#sb_agency-ideas::before{
+  content: "\f672" !important; /* Font Awesome 'copy' icon */
+  font-family: "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important;
+  font-size: 18px;
+}
+#sb_agency-ideas img{
+  display:none;
+}
+a#sb_mobile-app-customiser::before{
+  content: "\f3cd" !important; /* Font Awesome 'copy' icon */
+  font-family: "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important;
+  font-size: 18px;
+}
+#sb_mobile-app-customiser img{
+  display:none;
 }
