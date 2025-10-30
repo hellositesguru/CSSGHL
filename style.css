@@ -1,3 +1,48 @@
+.sidebar-v2-agency #location-switcher-sidbar-v2 .flex.items-center.leading-4.text-xs.w-full div.hl_location-text::before {
+    content: '\f649' !important;
+    margin-top: 5px !important;
+    top: -1px !important;
+    left: 5px !important;
+}
+body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a span.cpanel svg.cp-icon, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a span.cpanel, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span.cpanel, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span.cpanel svg.cp-icon {
+    color: #3ba9d0FF; !important;
+}
+a#sb_mobile-app-customiser::before{
+  content: "\f3cd" !important; /* Font Awesome 'copy' icon */
+  font-family: "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important;
+  font-size: 18px;
+  margin-right: 0.8rem;
+}
+#sb_mobile-app-customiser img{
+  display:none;
+}
+a#sb_agency-ideas::before {
+  content: "\f672" !important; /* Font Awesome 'copy' icon */
+  font-family: "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important;
+  font-size: 18px;
+  margin-right: 0.3rem;
+}
+#sb_agency-ideas img{
+  display:none;
+}
+a#sb_ghl-swag::before {
+  content: "\f54f" !important; /* Font Awesome 'copy' icon */
+  font-family: "Font Awesome 6 Pro" !important;
+  font-weight: 900 !important;
+  color: #3ba9d0 !important;
+  font-size: 18px;
+  margin-right: 0.3rem;
+}
+#sb_ghl-swag img{
+    display:none !important;
+  }
+.sidebar-v2-agency #sidebar-v2 .sm-button::before {
+    color: #3ba9d0FF !important;
+}
 img.object-contain.agency-logo{
   max-width:140px !important;
   height: 90px !important;
@@ -9,10 +54,13 @@ body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span, body #app .s
     font-family: Poppins !important;
 }
 .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a {
-    padding-top: 5px !important;
-    padding-bottom: 5px !important;
+    padding-top: 7px !important;
+    padding-bottom: 7px !important;
     margin-bottom: 7px !important;
     margin-top: 7px !important;
+}
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover{
+    margin-bottom: 7px !important;
 }
 body .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a:hover{
   background: #ccbe6dFF !important;
@@ -84,12 +132,12 @@ a#sb_agency-accounts::before{
     display: none;
 }
 a#sb_agency-account-snapshots::before{
-  content: "\f0c5" !important; /* Font Awesome 'copy' icon */
-  font-family: "Font Awesome 5 Free" !important;
+  content: "\f24d" !important; /* Font Awesome 'copy' icon */
+  font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
   color: #3ba9d0 !important;
   font-size: 18px;
-  margin-right: 0.8rem;
+  margin-right: 0.7rem;
 }
 #sb_agency-account-snapshots img{
   display:none;
@@ -122,7 +170,7 @@ a#sb_agency-partners::before{
   font-weight: 900 !important;
   color: #3ba9d0 !important;
   font-size: 18px;
-  margin-right: 0.5rem;
+  margin-right: 0.4rem;
 }
 #sb_agency-partners img{
   display:none;
@@ -159,22 +207,4 @@ a#sb_mobile-app-customiser::before{
 }
 #sb_mobile-app-customiser img{
   display:none;
-}
-  a#sb_ghl-swag::before {
-  content: "\f54f" !important; /* Font Awesome 'copy' icon */
-  font-family: "Font Awesome 6 Pro" !important;
-  font-weight: 900 !important;
-  color: #3ba9d0 !important;
-  font-size: 18px;
-  margin-right: 0.5rem;
-}
-#sb_ghl-swag img{
-    display:none !important;
-  }
-.sidebar-v2-agency #sidebar-v2 .sm-button::before {
-    color: #7CC4DF !important;
-}
-.agencyDashboardHeader
- {
-    display: none;
 }
