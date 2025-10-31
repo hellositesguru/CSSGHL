@@ -1,3 +1,198 @@
+/* icon for sub-account */
+/* Launchpad - Rocket ship icon */
+#sb_launchpad::before {
+    content: "\f135" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.7rem;
+}
+#sb_launchpad img {
+    display: none;
+}
+
+/* Dashboard - Speedometer/gauge icon */
+#sb_dashboard::before {
+    content: "\f625" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.7rem;
+}
+#sb_dashboard img {
+    display: none;
+}
+
+/* Conversations - Speech bubbles with question mark */
+#sb_conversations::before {
+    content: "\f086" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.4rem;
+}
+#sb_conversations img {
+    display: none;
+}
+
+/* Calendars - Calendar grid icon */
+#sb_calendars::before {
+    content: "\f073" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.9rem;
+}
+#sb_calendars img {
+    display: none;
+}
+
+/* Contacts - Person silhouette with card */
+#sb_contacts::before {
+    content: "\f2bb" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.7rem;
+}
+#sb_contacts img {
+    display: none;
+}
+
+/* Opportunities - Funnel with dollar sign */
+#sb_opportunities::before {
+    content: "\f662" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.7rem;
+}
+#sb_opportunities img {
+    display: none;
+}
+
+/* Payments - Chart with dollar sign */
+#sb_payments::before {
+    content: "\f201" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.9rem;
+}
+#sb_payments img {
+    display: none;
+}
+
+/* AI Agents - Robot icon */
+#sb_ai_agents::before {
+    content: "\f544" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.7rem;
+}
+#sb_ai_agents img {
+    display: none;
+}
+
+/* Marketing - Envelope with checkmark */
+#sb_marketing::before {
+    content: "\f199" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.7rem;
+}
+#sb_marketing img {
+    display: none;
+}
+/* AI Agents - Person with plus sign */
+#sb_AI Agents::before {
+    content: "\f4fb" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.7rem;
+}
+#sb_AI Agents img {
+    display: none;
+}
+
+/* Marketing - Envelope with checkmark */
+#sb_email-marketing::before {
+    content: "\e4e8" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.7rem;
+}
+#sb_email-marketing img {
+    display: none;
+}
+
+/* Automation - Workflow/Gear icon */
+#sb_automation::before {
+    content: "\e5d5" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.7rem;
+}
+#sb_automation img {
+    display: none;
+}
+
+/* Funnels - Document/Newspaper icon */
+#sb_sites::before {
+    content: "\f1ea" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.7rem;
+}
+#sb_sites img {
+    display: none;
+}
+
+/* Media Storage - Picture frame/Landscape icon */
+#sb_app-media::before {
+    content: "\f03e" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.7rem;
+}
+#sb_app-media img {
+    display: none;
+}
+
+/* Reputation - Smiley face icon */
+#sb_reputation::before {
+    content: "\f118" !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0 !important;
+    font-size: 18px;
+    margin-right: 0.7rem;
+}
+#sb_reputation img {
+    display: none;
+}
+
 .sidebar-v2-agency #location-switcher-sidbar-v2 .flex.items-center.leading-4.text-xs.w-full div.hl_location-text::before {
     content: '\f649' !important;
     margin-top: 5px !important;
