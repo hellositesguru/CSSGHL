@@ -1,5 +1,63 @@
+/*Start - CSS when not using themes or using default themes*/
+/* Switch Account */
+.sidebar-v2-agency #location-switcher-sidbar-v2 .flex.items-center.leading-4.text-xs.w-full div.hl_location-text::before {
+    content: '\f649' !important;
+    margin-top: 5px !important;
+    top: -1px !important;
+    left: 5px !important;
+}
+.sidebar-v2-location #location-switcher-sidbar-v2 .flex.items-center.leading-4.text-xs.w-full div.hl_location-text::before, .sidebar-v2-agency #location-switcher-sidbar-v2 .flex.items-center.leading-4.text-xs.w-full div.hl_location-text::before {
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 22px !important;
+    font-weight: 900 !important;
+    color: var(--hlpt-primary-theme-color) !important;
+    margin-top: 10px !important;
+    position: absolute !important;
+    top: 125px !important;
+    margin-right: 5px !important;
+    opacity: 1 !important;
+    left: 20px !important;
+}
+svg.hl_location_icon.scale-1 {
+    display: none;
+}
+.sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2 .hl_location-text {
+    margin-left: 40px;
+      font-family: 'Poppins';
+}
+sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2 .hl_location-text span{
+  color:#CCBF6D;
+}
+/* Background and Navbar */
+#sidebar-v2 .hl_nav-header nav a:hover {
+    color: white !important;
+}
+#sidebar-v2 .relative {
+    background: #F1F0E7;
+}
+#sidebar-v2 a.active .hl_text-overflow {
+    color: white !important;
+}
+header.hl_header.--agency {
+    background-color: #F1F0E6;
+}
+body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a.active
+ {
+    width: 95%;
+    margin: auto;
+    border-radius: 50px !important;
+}
+body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a.active{
+background-color: #CCBF6D !important;
+  
+}
+#app .sidebar-v2-location #sidebar-v2 nav a, #app .sidebar-v2-agency #sidebar-v2 nav a {
+    position: relative;
+    width: 95%;
+    margin: auto;
+    margin-bottom: 3px;
+}
 /* icon for sub-account */
-/* Launchpad - Rocket ship icon */
 #sb_launchpad::before {
     content: "\f135" !important;
     font-family: "Font Awesome 6 Pro" !important;
@@ -191,13 +249,6 @@
 }
 #sb_reputation img {
     display: none;
-}
-
-.sidebar-v2-agency #location-switcher-sidbar-v2 .flex.items-center.leading-4.text-xs.w-full div.hl_location-text::before {
-    content: '\f649' !important;
-    margin-top: 5px !important;
-    top: -1px !important;
-    left: 5px !important;
 }
 body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a span.cpanel svg.cp-icon, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a span.cpanel, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span.cpanel, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span.cpanel svg.cp-icon {
     color: #3ba9d0FF; !important;
@@ -397,3 +448,4 @@ a#sb_mobile-app-customiser::before{
 #sb_mobile-app-customiser img{
   display:none;
 }
+/*End - CSS when not using themes or using default themes*/
