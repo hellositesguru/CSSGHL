@@ -1,5 +1,7 @@
-/*Start - CSS when not using themes or using default themes*/
 /* Switch Account */
+#location-list .flex.flex-row.items-center.justify-start.py-2.my-2.hl_account:hover #location-list .mx-1.flex.flex-col.justify-center.items-center.bg-gray-200.font-medium.text-sm.h-6.w-6.rounded-full.capitalize {
+    background: #CCBF6D;
+}
 #location-list .mx-1.flex.flex-col.justify-center.items-center.bg-gray-200.font-medium.text-sm.h-6.w-6.rounded-full.capitalize {
     color: white !important;
     background: black;
@@ -459,4 +461,3 @@ a#sb_mobile-app-customiser::before{
 #sb_mobile-app-customiser img{
   display:none;
 }
-/*End - CSS when not using themes or using default themes*/
