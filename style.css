@@ -1,5 +1,16 @@
 /*Start - CSS when not using themes or using default themes*/
 /* Switch Account */
+#location-list .mx-1.flex.flex-col.justify-center.items-center.bg-gray-200.font-medium.text-sm.h-6.w-6.rounded-full.capitalize {
+    color: white !important;
+    background: black;
+}
+body[data-theme=default] .sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2 .hl_switcher-loc-name, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2 .hl_switcher-loc-name {
+    --tw-text-opacity: 1;
+    color: #CCBF6D;
+    max-width: 7.5rem;
+    margin-top: .2rem;
+    display: inline-block;
+}
 .sidebar-v2-agency #location-switcher-sidbar-v2 .flex.items-center.leading-4.text-xs.w-full div.hl_location-text::before {
     content: '\f649' !important;
     margin-top: 5px !important;
