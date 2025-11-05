@@ -68,6 +68,7 @@ sb_or0lFkDrukkPVXhQ2ZDe.custom_objects.referring_providers*/
 
 /*Start - CSS when not using themes or using default themes*/
 /* Dashboard color - Niar */
+/*tabs summary and rebilling */
 .n-tabs-tab--active .n-tabs-tab__label {
   color: #CCBE80 !important;
 }
@@ -109,7 +110,6 @@ sb_or0lFkDrukkPVXhQ2ZDe.custom_objects.referring_providers*/
   background-color:#CCBE80 !important;
 }
 /* end code - niar */
-
 /* Switch Account */
 #location-list .flex.flex-row.items-center.justify-start.py-2.my-2.hl_account:hover #location-list .mx-1.flex.flex-col.justify-center.items-center.bg-gray-200.font-medium.text-sm.h-6.w-6.rounded-full.capitalize {
     background: #CCBF6D;
