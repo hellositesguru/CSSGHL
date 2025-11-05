@@ -1,3 +1,249 @@
+/*Start - CSS when not using themes or using default themes*/
+/*Search bar on sub account*/
+div#quickActions::before {
+    content: '\f007';
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    color: #CCBF6D !important;
+    display: block;
+    z-index: 1;
+}
+div#quickActions img{
+  display:none;
+}
+#sidebar-v2 #globalSearchOpener .search-placeholder {
+    color: #CCBF6D !important;
+  font-family: 'Poppins';
+}
+/* Setting on sub accounts */
+.divider {
+    display: none !important;
+}
+/* Distance */
+#app .sidebar-v2-location #sidebar-v2 nav a, #app .sidebar-v2-agency #sidebar-v2 nav a{
+  margin-bottom: 6px !important;
+}
+/* Background Color on Header */
+header.hl_header {
+    background-color: #F1EFE7 !important;
+}
+/* Business Info */
+#sb_business_info::before {
+    content:  '\f0b1' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/*Company Billing*/
+#sb_saas-billing::before {
+    content: '\f09d' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* My Staff */
+#sb_my-staff::before {
+    content: '\f500' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Pipelines */
+#sb_Opportunities-Pipelines::before
+ {
+    content: '\f662' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Automation */
+#sb_automation::before, #sb_::before {
+    content: '\e5d5' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Email Service */
+#sb_location-email-services::before {
+    content: '\e16f' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* WhatsApp */
+#sb_whatsapp::before {
+    content: '\f4b0' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Object */
+#sb_objects::before {
+    content: '\e49e' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Custom Fields */
+#sb_custom-fields-settings::before {
+    content: '\e531' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Custom Value */
+#sb_custom-values::before {
+    content: '\f7ea' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Manage Scrolling */
+#sb_manage-scoring::before {
+    content: '\e41c' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Domain */
+ #sb_domains-urlRedirects::before
+ {
+    content: '\f0ac' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+ }
+/* External Tracking */
+#sb_external-tracking::before {
+    content: '\e60e' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Integration */
+#sb_integrations::before {
+    content: '\f126' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Private Integration */
+#app #sidebar-v2 .hl_nav-header-without-footer a[id^="sb_common.sidebar.privateIntegrations"]::before {
+    content: '\e4ad' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Conversation */
+#sb_conversations_providers::before {
+    content: '\f328' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Tags */
+#sb_tags::before {
+    content: '\f02c' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Audit Logs */
+#sb_audit-logs-location::before
+ {
+    content: '\e5d8' !important;
+   font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Brand Board */
+#sb_brand-boards::before {
+  content: '\f53f' !important;
+  font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Dashboard color */
+/*tabs summary and rebilling */
+.n-tabs-tab--active .n-tabs-tab__label {
+  color: #CCBE80 !important;
+}
+.n-tabs-bar {
+  background-color: #CCBE80 !important;
+}
+.n-tabs-tab:hover .n-tabs-tab__label {
+  color: #CCBE80 !important;
+}
+/*Grow Rate*/
+.highcharts-graph{
+  stroke: #34343E !important;
+  stroke-width: 3 !important;
+}
+/*Revenue Distribution*/
+.highcharts-color-0 .highcharts-point[data-z-index="3"] , .highcharts-color-1 .highcharts-point[data-z-index="3"], .highcharts-color-2 .highcharts-point[data-z-index="3"]{
+  fill: #CCBE80 !important; 
+}
+.highcharts-color-3 .highcharts-point[data-z-index="3"]{
+  fill: #0D4A73 !important; 
+}
+.highcharts-color-4 .highcharts-point[data-z-index="3"]{
+  fill: #115480 !important; 
+}
+.highcharts-color-1, .highcharts-color-2{
+   fill: #CCBE80 !important;
+}
+.highcharts-color-0{
+  fill: #34343E !important;
+}
+.highcharts-color-4{
+  fill: #115480 !important;
+}
+.highcharts-color-3{
+  fill: #0D4A73 !important;
+}
+/*Include only rebilled transactions button*/
+.n-switch.n-switch--active .n-switch__rail{
+  background-color:#CCBE80 !important;
+}
+/* end code */
 /* Switch Account */
 #location-list .flex.flex-row.items-center.justify-start.py-2.my-2.hl_account:hover #location-list .mx-1.flex.flex-col.justify-center.items-center.bg-gray-200.font-medium.text-sm.h-6.w-6.rounded-full.capitalize {
     background: #CCBF6D;
@@ -461,3 +707,4 @@ a#sb_mobile-app-customiser::before{
 #sb_mobile-app-customiser img{
   display:none;
 }
+/*End - CSS when not using themes or using default themes*/
