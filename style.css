@@ -1,5 +1,136 @@
+/* 1) Force background + text color for all conversation bubbles */
+.message-bubble.cnv-message-bubble.cnv-message-bubble {
+  background-color: #EDE8D1 !important; /* your background color */
+  color: #111 !important;               /* text color */
+}
+
+/* 2) Ensure child elements match the text color */
+.message-bubble.cnv-message-bubble.cnv-message-bubble * {
+  color: #111 !important;
+}
+
+/* 3) Fix the icon color (uses currentColor) */
+.message-bubble.cnv-message-bubble.cnv-message-bubble .message-info button svg,
+.message-bubble.cnv-message-bubble.cnv-message-bubble .message-info button svg path {
+  color: #111 !important;
+  fill: currentColor !important;
+}
+
+/* 4) Override inline styles if present */
+.message-bubble.cnv-message-bubble[style],
+.message-bubble.cnv-message-bubble[style] * {
+  background-color: #EDE8D1 !important;
+  color: #111 !important;
+}
+
+/*Tail color*/
+.message-bubble.cnv-message-bubble::before,
+.message-bubble.cnv-message-bubble::after {
+  content: none !important;
+}
+
+/*End code for Bubble conversation*/
+
+/*code from theme builder*/
+@import url('https://cdn2.locationapi.co/themegenerator/dashboard-login-main-center.css'); :root { --hlpt-primary-theme-color: #ccbe6d; --hlpt-primary-theme-bg-color: #34343e; --hlpt-left-nav-color: #34343e; --hlpt-footer-note: "support@stringmarketing.com";  --custom-loading-icon: url('https://storage.googleapis.com/msgsndr/PmiPWLmintK2e90DjnlO/media/67026268e12bb9777f556aac.png') !important; --hlpt-adv-loginlogo-size: 350px; --hlpt-adv-loginlogo-img: url('https://storage.googleapis.com/msgsndr/PmiPWLmintK2e90DjnlO/media/66e9f7fc2e82ca1ead116520.png') !important; --hlpt-main-body-image: url('https://storage.googleapis.com/msgsndr/PmiPWLmintK2e90DjnlO/media/67ae1462d1f86a01f4d877ae.png') !important;} body #app .sidebar-v2-agency .hl_login .hl_login--header .container-fluid a img {opacity: 0 !important;}
+/*code for hiding dashboard numbers*/
+.statisticSpace
+{visibility:hidden!important;
+position:absolute !important;}
+
+.hl_form-builder--main { padding: 0px 20px !important;}
+#custom-themegen-header-btn {display:none;}
+#sb_app-marketplace {display: none !important;}
+#sb_location-mobile-app{display: none !important;}
+#tb_blogs; #tb_websites, #tb_wordpress-v2{display: none !important;}
+a.branded-banner {display: none !important;}
+a#tb_wordpress-v2  {display: none !important;}
+div.wp-features{display: none;}
+
+#sb_ai-employee-promo {
+    display: none !important;
+}
+
+.iframe-back-shade {
+  display: none !important;
+}
+
+.table_tag-more, .tag-more {color:#34343e !important}
+
+
+
+/*Digital Diabetes Hide Contact Custom Field Folders*/
+div#nMl9e2x0FLF7jwzKPzEf{display:none !important;} /*hidden folder*/
+a#or0lFkDrukkPVXhQ2ZDe {display:none !important;} /*referring providers tab - temp
+sb_or0lFkDrukkPVXhQ2ZDe.custom_objects.referring_providers*/
+
+
 /*Start - CSS when not using themes or using default themes*/
+/* start name sub account*/
+/* change to font to poppin */
+.hl_account{
+font-family: 'Poppins';
+}
+.hl_account .hl_text-overflow{
+color: #000000 !important;
+}
+/* Smooth transition */
+.hl_account,
+.hl_account * {
+transition: all 0.3s ease;
+}
+
+/* When hovering on the parent */
+.hl_account:hover {
+background-color: #f0f0f0; /* light gray background */
+cursor: pointer;
+}
+
+/* Change text + icon + initial colors when hovered */
+.hl_account:hover .mx-1.flex.flex-col.justify-center.items-center.bg-gray-200.font-medium.text-sm.h-6.w-6.rounded-full.capitalize{
+background-color: #CCBE80 !important;
+}
+.hl_account:hover .hl_location-title,
+.hl_account:hover .hl_pinned-fade path {
+color: #CCBE80 !important; /* for text elements */
+fill: #CCBE80 !important; /* for SVG paths */
+}
+.hl_pinned-fade path{
+fill:#CCBE80 !important;
+}
+:deep(.hl_account:hover .hl_pinned-fade) {
+color: #CCBE80 !important;
+}
+/* end name sub account*/
+/* Change search icon color */
+.search-area svg {
+color: #CCBE80;
+fill: #CCBE80;
+transition: color 0.3s ease;
+}
+.search-area input[type="search"]::placeholder{
+font-family: 'Poppins';
+}
+/* Change focus outline color */
+.search-area input[type="search"]:focus {
+outline: none !important;
+box-shadow: none !important;
+border-color:#f0f0f0;
+}
+
 /*Search bar on sub account*/
+#sidebar-v2 #globalSearchOpener .search-placeholder {
+    color: #CCBF6D !important;
+  font-family: 'Poppins';
+}
+/*Back button on sidebar*/
+.sidebar-v2-location #sidebar-v2 #backButtonv2{
+  background-color: white !important
+}
+/* Setting on sub accounts */
+.divider {
+    display: none !important;
+}
 div#quickActions::before {
     content: '\f007';
     font-family: 'FontAwesome';
@@ -11,21 +142,43 @@ div#quickActions::before {
 div#quickActions img{
   display:none;
 }
-#sidebar-v2 #globalSearchOpener .search-placeholder {
-    color: #CCBF6D !important;
-  font-family: 'Poppins';
+/* Hamburger */
+.sidebar-v2-location #sidebar-v2 .hl_collapse-button::before, .sidebar-v2-agency #sidebar-v2 .hl_collapse-button::before {
+    content: '\f68e' !important;
+    top: -5px !important;
+    position: relative;
+    color: black !important;
+    right: -5px !important;
+    font-family: 'Font Awesome 6 Pro' !important;
 }
-/* Setting on sub accounts */
-.divider {
-    display: none !important;
+.sidebar-v2-location #sidebar-v2 .hl_collapse-button, .sidebar-v2-agency #sidebar-v2 .hl_collapse-button {
+    background: none !important;
+    color: black !important;
+    margin-bottom: 9px !important;
+    font-size: 23px !important;
+    rotate: -90deg;
+    padding: 2px !important;
+    border: 0px solid #e2e2e2;
 }
-/* Distance */
-#app .sidebar-v2-location #sidebar-v2 nav a, #app .sidebar-v2-agency #sidebar-v2 nav a{
-  margin-bottom: 6px !important;
+#sidebar-v2 .sm\:hidden.lg\:block.xl\:block.absolute.-right-2.bottom-5.z-50 {
+    top: 10px !important;
+    right: 0 !important;
+}
+/* Height of navbar */
+.sidebar-v2-location #sidebar-v2 .hl_nav-header, .sidebar-v2-location #sidebar-v2 .hl_nav-settings {
+    overflow-y: overlay;
+    max-height: calc(100vh - 20.625rem);
 }
 /* Background Color on Header */
 header.hl_header {
     background-color: #F1EFE7 !important;
+}
+/*yin yang*/
+#aa9683a0-b362-45f5-bf1a-312de5a01f93 span.nav-title{
+  font-family:'poppins';
+}
+.sidebar-v2-location #sidebar-v2 a span.h-5.w-5.mr-2 i:before{
+  color: #3BA9D0 !important;
 }
 /* Business Info */
 #sb_business_info::before {
@@ -35,6 +188,106 @@ header.hl_header {
     font-weight: 900 !important;
     margin-right: 10px !important;
     color: #3ba9d0FF;
+}
+/*Payments*/
+#sb_payments::before {
+    content: '\e5d9' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 14px !important;
+    color: #3ba9d0FF;
+}
+/*convertion ai*/
+#sb_conversation_ai_settings_v2::before {
+    content: '\e4a7' !important;
+  font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 14px !important;
+    color: #3ba9d0FF;
+}
+/*AI*/
+a[id="sb_AI Agents"]::before {
+    content: '\f4fb' !important;
+   font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    margin-right: 15px !important;
+    color: #3ba9d0FF;
+}
+a[id="sb_AI Agents"] img{
+  display:none;
+}
+/*profile*/
+#sb_profile::before {
+    content: '\f007' !important;
+  font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+#sb_ai_agent_settings::before {
+    content: '\f4fb' !important;
+  font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/*knowledge based*/
+#sb_knowledge-base-settings::before {
+    content: '\f5da' !important;
+  font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/*conversation ai*/
+#sb_conversation_ai_settings_v2::before {
+   content: '\e4a7'
+  font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 18px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+/* Memberships */
+#sb_memberships::before {
+    content: '\f559' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 20px !important;
+    font-weight: 900 !important;
+    margin-right: 14px !important;
+    color: #3ba9d0FF;
+}
+#sb_memberships img{
+  display:none;
+}
+/* Reporting */
+#sb_reporting::before {
+    content: '\e473' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 15px !important;
+    color: #3ba9d0FF;
+}
+#sb_reporting img{
+  display:none;
+}
+#sb_settings::before {
+    content: '\e5e9' !important;
+    font-family: 'Font Awesome 6 Pro' !important;
+    font-size: 16px !important;
+    font-weight: 900 !important;
+    margin-right: 10px !important;
+    color: #3ba9d0FF;
+}
+#sb_settings img{
+  display:none;
 }
 /*Company Billing*/
 #sb_saas-billing::before {
@@ -152,7 +405,7 @@ header.hl_header {
     font-family: 'Font Awesome 6 Pro' !important;
     font-size: 16px !important;
     font-weight: 900 !important;
-    margin-right: 10px !important;
+    margin-right: 13px !important;
     color: #3ba9d0FF;
 }
 /* Private Integration */
@@ -161,7 +414,7 @@ header.hl_header {
     font-family: 'Font Awesome 6 Pro' !important;
     font-size: 16px !important;
     font-weight: 900 !important;
-    margin-right: 10px !important;
+    margin-right: 7px !important;
     color: #3ba9d0FF;
 }
 /* Conversation */
@@ -170,7 +423,7 @@ header.hl_header {
     font-family: 'Font Awesome 6 Pro' !important;
     font-size: 16px !important;
     font-weight: 900 !important;
-    margin-right: 10px !important;
+    margin-right: 14px !important;
     color: #3ba9d0FF;
 }
 /* Tags */
@@ -394,15 +647,6 @@ background-color: #CCBF6D !important;
     display: none;
 }
 
-/* Payments - Chart with dollar sign */
-#sb_payments::before {
-    content: "\f201" !important;
-    font-family: "Font Awesome 6 Pro" !important;
-    font-weight: 900 !important;
-    color: #3ba9d0 !important;
-    font-size: 18px;
-    margin-right: 0.9rem;
-}
 #sb_payments img {
     display: none;
 }
@@ -422,12 +666,12 @@ background-color: #CCBF6D !important;
 
 /* Marketing - Envelope with checkmark */
 #sb_marketing::before {
-    content: "\f199" !important;
+    content: "\e4e8" !important;
     font-family: "Font Awesome 6 Pro" !important;
     font-weight: 900 !important;
     color: #3ba9d0 !important;
     font-size: 18px;
-    margin-right: 0.7rem;
+    margin-right: 8px;
 }
 #sb_marketing img {
     display: none;
