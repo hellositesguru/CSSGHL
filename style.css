@@ -57,15 +57,36 @@ div.wp-features{display: none;}
 
 .table_tag-more, .tag-more {color:#34343e !important}
 
-
-
 /*Digital Diabetes Hide Contact Custom Field Folders*/
 div#nMl9e2x0FLF7jwzKPzEf{display:none !important;} /*hidden folder*/
 a#or0lFkDrukkPVXhQ2ZDe {display:none !important;} /*referring providers tab - temp
 sb_or0lFkDrukkPVXhQ2ZDe.custom_objects.referring_providers*/
 
-
 /*Start - CSS when not using themes or using default themes*/
+
+.v2-collapse.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .v2-collapse.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, .v2-collapse.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, .v2-collapse.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover
+ {
+    width: 85% !important;
+}
+#sb_agency-settings::before {
+    content: '\e5e9' !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0FF !important;
+    font-size: 18px;
+    margin-right: 8px;
+}
+  #sb_agency-settings img{
+    display:none;
+  }
+/* hover on navbar*/
+body .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a:hover{
+  border-radius:100px !important;
+}
+/*background switch color*/
+.sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2{
+  background-color:white !important;
+}
 /* start name sub account*/
 /* change to font to poppin */
 .hl_account{
@@ -78,6 +99,12 @@ color: #000000 !important;
 .hl_account,
 .hl_account * {
 transition: all 0.3s ease;
+}
+a, button {
+    -webkit-transition: all 0.2s ease-in-out 0s;
+    -o-transition: all 0.2s ease-in-out 0s;
+    transition: all 0.2s ease-in-out 0s;
+    cursor: pointer;
 }
 
 /* When hovering on the parent */
@@ -172,6 +199,10 @@ div#quickActions img{
 /* Background Color on Header */
 header.hl_header {
     background-color: #F1EFE7 !important;
+}
+/*settings navbar*/
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover{
+  border-radius:100px;
 }
 /*yin yang*/
 #aa9683a0-b362-45f5-bf1a-312de5a01f93 span.nav-title{
@@ -548,26 +579,18 @@ sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2 .hl_location-text spa
     background: #F1F0E7;
 }
 #sidebar-v2 a.active .hl_text-overflow {
-    color: white !important;
+    color: black !important;
 }
 header.hl_header.--agency {
     background-color: #F1F0E6;
 }
-body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a.active
- {
-    width: 95%;
-    margin: auto;
-    border-radius: 50px !important;
-}
-body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a.active{
-background-color: #CCBF6D !important;
-  
-}
+
 #app .sidebar-v2-location #sidebar-v2 nav a, #app .sidebar-v2-agency #sidebar-v2 nav a {
     position: relative;
     width: 95%;
     margin: auto;
-    margin-bottom: 3px;
+    margin-bottom: 10px;
+  margin-left: 10px;
 }
 /* icon for sub-account */
 #sb_launchpad::before {
@@ -797,31 +820,16 @@ img.object-contain.agency-logo{
   height: 90px !important;
 }
 body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span:not(span.cpanel) {
-    color: #34343EFF !important;
+    color: black !important;
 }
 body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span, body #app .sidebar-v2-agency .template-library-sidebar-root p, body #app .sidebar-v2-agency .template-library-sidebar-root p span, body #app .sidebar-v2-agency .template-library-sidebar-root div, body #app .sidebar-v2-agency .template-library-sidebar-root div span, body #app .sidebar-v2-agency .template-library-sidebar-root .n-collapse-item__header-main, body #app .sidebar-v2-agency .template-library-sidebar-root .n-collapse-item__header-main, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a span {
     font-family: Poppins !important;
-}
-.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover{
-    margin-bottom: 7px !important;
+  color:black !important;
 }
 body .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a:hover{
   background: #ccbe6dFF !important;
 }
-body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active span:not(span.cpanel) {
-    color: #ffffff !important;
-}
-body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover span:not(span.cpanel) {
-    color: #ffffff !important;
-}
-.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover {
-    text-decoration: none !important;
-    width: 94% !important;
-    border: 2px solid #f4f4f4 !important;
-    border-radius: 100px !important;
-    margin-left: 10px !important;
-    margin-bottom: 5px !important;
-}
+
 .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a {
     padding-top: 7px !important;
     padding-bottom: 7px !important;
@@ -845,18 +853,19 @@ a#sb_agency-saas-configurator::before{
   content: "\e601" !important; /* contoh: cloud icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.5rem;
 }
-#sb_agency-saas-configurator span.h-5.w-5.mr-2 {
-    display: none;
+#sb_agency-saas-configurator span.h-5{
+  display:none;
 }
+
 a#sb_location-prospect::before{
    content: "\e5c5" !important; /* contoh: Font Awesome search icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.5rem;
 }
@@ -867,7 +876,7 @@ a#sb_agency-accounts::before{
   content: "\f0c0" !important; /* Font Awesome users icon */
   font-family: "Font Awesome 5 Free" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important; /* bisa ganti warna */
+  color: #3ba9d0FF !important; /* bisa ganti warna */
   font-size: 18px;
   margin-right: 0.5rem;
 }
@@ -878,7 +887,7 @@ a#sb_agency-account-snapshots::before{
   content: "\f24d" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.7rem;
 }
@@ -889,7 +898,7 @@ a#sb_agency-account-reselling::before{
   content: "\e605" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.5rem;
 }
@@ -900,7 +909,7 @@ a#sb_agency-marketplace::before{
   content: "\f0a1" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 5 Free" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.7rem;
 }
@@ -911,7 +920,7 @@ a#sb_agency-partners::before{
   content: "\f4c6" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 5 Free" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.4rem;
 }
@@ -922,7 +931,7 @@ a#sb_saas-education::before{
   content: "\f51c" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.3rem;
 }
@@ -933,7 +942,7 @@ a#sb_agency-ideas::before{
   content: "\f672" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.7rem;
 }
@@ -944,11 +953,12 @@ a#sb_mobile-app-customiser::before{
   content: "\f3cd" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.7rem;
 }
 #sb_mobile-app-customiser img{
   display:none;
 }
+  
 /*End - CSS when not using themes or using default themes*/
