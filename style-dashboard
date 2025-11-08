@@ -1,120 +1,14 @@
-/*Start - CSS when not using themes or using default themes*/
-/* Dashboard color - Niar */
-/*tabs summary and rebilling */
-.n-tabs-tab--active .n-tabs-tab__label {
-  color: #CCBE80 !important;
+/* Start CSS no theme */
+
+/* Background navigasi di sub account */
+body .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a:hover{
+  background: #ccbe6dFF !important;
 }
-.n-tabs-bar {
-  background-color: #CCBE80 !important;
+/*Pembatas Group Sub Account*/
+.divider{
+  display:none !important;
 }
-.n-tabs-tab:hover .n-tabs-tab__label {
-  color: #CCBE80 !important;
-}
-/*Grow Rate*/
-.highcharts-graph{
-  stroke: #34343E !important;
-  stroke-width: 3 !important;
-}
-/*Revenue Distribution*/
-.highcharts-color-0 .highcharts-point[data-z-index="3"] , .highcharts-color-1 .highcharts-point[data-z-index="3"], .highcharts-color-2 .highcharts-point[data-z-index="3"]{
-  fill: #CCBE80 !important; 
-}
-.highcharts-color-3 .highcharts-point[data-z-index="3"]{
-  fill: #0D4A73 !important; 
-}
-.highcharts-color-4 .highcharts-point[data-z-index="3"]{
-  fill: #115480 !important; 
-}
-.highcharts-color-1, .highcharts-color-2{
-   fill: #CCBE80 !important;
-}
-.highcharts-color-0{
-  fill: #34343E !important;
-}
-.highcharts-color-4{
-  fill: #115480 !important;
-}
-.highcharts-color-3{
-  fill: #0D4A73 !important;
-}
-/*Include only rebilled transactions button*/
-.n-switch.n-switch--active .n-switch__rail{
-  background-color:#CCBE80 !important;
-}
-/* end code - niar */
-/* Switch Account */
-#location-list .flex.flex-row.items-center.justify-start.py-2.my-2.hl_account:hover #location-list .mx-1.flex.flex-col.justify-center.items-center.bg-gray-200.font-medium.text-sm.h-6.w-6.rounded-full.capitalize {
-    background: #CCBF6D;
-}
-#location-list .mx-1.flex.flex-col.justify-center.items-center.bg-gray-200.font-medium.text-sm.h-6.w-6.rounded-full.capitalize {
-    color: white !important;
-    background: black;
-}
-body[data-theme=default] .sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2 .hl_switcher-loc-name, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2 .hl_switcher-loc-name {
-    --tw-text-opacity: 1;
-    color: #CCBF6D;
-    max-width: 7.5rem;
-    margin-top: .2rem;
-    display: inline-block;
-}
-.sidebar-v2-agency #location-switcher-sidbar-v2 .flex.items-center.leading-4.text-xs.w-full div.hl_location-text::before {
-    content: '\f649' !important;
-    margin-top: 5px !important;
-    top: -1px !important;
-    left: 5px !important;
-}
-.sidebar-v2-location #location-switcher-sidbar-v2 .flex.items-center.leading-4.text-xs.w-full div.hl_location-text::before, .sidebar-v2-agency #location-switcher-sidbar-v2 .flex.items-center.leading-4.text-xs.w-full div.hl_location-text::before {
-    font-family: 'Font Awesome 6 Pro' !important;
-    font-size: 22px !important;
-    font-weight: 900 !important;
-    color: var(--hlpt-primary-theme-color) !important;
-    margin-top: 10px !important;
-    position: absolute !important;
-    top: 125px !important;
-    margin-right: 5px !important;
-    opacity: 1 !important;
-    left: 20px !important;
-}
-svg.hl_location_icon.scale-1 {
-    display: none;
-}
-.sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2 .hl_location-text {
-    margin-left: 40px;
-      font-family: 'Poppins';
-}
-sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2 .hl_location-text span{
-  color:#CCBF6D;
-}
-/* Background and Navbar */
-#sidebar-v2 .hl_nav-header nav a:hover {
-    color: white !important;
-}
-#sidebar-v2 .relative {
-    background: #F1F0E7;
-}
-#sidebar-v2 a.active .hl_text-overflow {
-    color: white !important;
-}
-header.hl_header.--agency {
-    background-color: #F1F0E6;
-}
-body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a.active
- {
-    width: 95%;
-    margin: auto;
-    border-radius: 50px !important;
-}
-body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a:hover, body[data-theme=default] .sidebar-v2-location #sidebar-v2 .hl_nav-settings nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a:hover, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a.active{
-background-color: #CCBF6D !important;
-  
-}
-#app .sidebar-v2-location #sidebar-v2 nav a, #app .sidebar-v2-agency #sidebar-v2 nav a {
-    position: relative;
-    width: 95%;
-    margin: auto;
-    margin-bottom: 3px;
-}
-/* icon for sub-account */
+  /* icon for sub-account */
 #sb_launchpad::before {
     content: "\f135" !important;
     font-family: "Font Awesome 6 Pro" !important;
@@ -139,7 +33,6 @@ background-color: #CCBF6D !important;
 #sb_dashboard img {
     display: none;
 }
-
 /* Conversations - Speech bubbles with question mark */
 #sb_conversations::before {
     content: "\f086" !important;
@@ -192,15 +85,6 @@ background-color: #CCBF6D !important;
     display: none;
 }
 
-/* Payments - Chart with dollar sign */
-#sb_payments::before {
-    content: "\f201" !important;
-    font-family: "Font Awesome 6 Pro" !important;
-    font-weight: 900 !important;
-    color: #3ba9d0 !important;
-    font-size: 18px;
-    margin-right: 0.9rem;
-}
 #sb_payments img {
     display: none;
 }
@@ -220,12 +104,12 @@ background-color: #CCBF6D !important;
 
 /* Marketing - Envelope with checkmark */
 #sb_marketing::before {
-    content: "\f199" !important;
+    content: "\e4e8" !important;
     font-family: "Font Awesome 6 Pro" !important;
     font-weight: 900 !important;
     color: #3ba9d0 !important;
     font-size: 18px;
-    margin-right: 0.7rem;
+    margin-right: 8px;
 }
 #sb_marketing img {
     display: none;
@@ -307,27 +191,85 @@ background-color: #CCBF6D !important;
 #sb_reputation img {
     display: none;
 }
+
+/*Logo navigasi*/
+.agency-logo-container img{
+  height:70px !important;
+}
+/*Warna BG Navigasi*/
+body #app #sidebar-v2{
+  background-color: #F0EFE7 !important;
+}
+header.hl_header {
+    background-color: #F1EFE7 !important;
+}
+/*Lebar background navigasi ketika hover*/
+.v2-collapse.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .v2-collapse.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, .v2-collapse.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, .v2-collapse.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover
+ {
+    width: 75% !important;
+}
+.v2-collapse.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a, .v2-collapse.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a, .v2-collapse.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a, .v2-collapse.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a
+ {
+   padding-left: 10px !important;
+}
+/* Warna background setiap navigasi ketika aktif dan hover */
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover {
+    text-decoration: none !important;
+    width: 94% !important;
+    border: 2px solid #f4f4f4 !important;
+    border-radius: 100px !important;
+  background: #CCBF6D !important;
+}
+/*Jarak antar Navigasi di agency dashboard*/
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a
+ {
+   width: 94% !important;
+    padding-top: 5px !important;
+    padding-bottom: 5px !important;
+    margin-bottom: 7px !important;
+   margin-top:7px !important;
+   margin-left: 10px !important;
+}
+.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a, .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a{
+  margin-left: 10px !important;
+}
+/* icon dan warna icon di agency dashboard*/
 body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a span.cpanel svg.cp-icon, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a span.cpanel, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span.cpanel, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span.cpanel svg.cp-icon {
     color: #3ba9d0FF; !important;
 }
+.sidebar-v2-agency #sidebar-v2 .sm-button::before {
+    color: #3ba9d0FF !important;
+}
+#sb_agency-settings::before {
+    content: '\e5e9' !important;
+    font-family: "Font Awesome 6 Pro" !important;
+    font-weight: 900 !important;
+    color: #3ba9d0FF !important;
+    font-size: 18px;
+    margin-right: 8px;
+}
+  #sb_agency-settings img{
+    display:none;
+  }
 a#sb_mobile-app-customiser::before{
   content: "\f3cd" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
-  margin-right: 0.8rem;
+     margin-right: 0.9rem;
+    margin-left: 3px;
 }
 #sb_mobile-app-customiser img{
   display:none;
 }
-a#sb_agency-ideas::before {
+a#sb_agency-ideas::before{
   content: "\f672" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
-  margin-right: 0.3rem;
+  margin-right: 0.7rem;
 }
 #sb_agency-ideas img{
   display:none;
@@ -343,47 +285,6 @@ a#sb_ghl-swag::before {
 #sb_ghl-swag img{
     display:none !important;
   }
-.sidebar-v2-agency #sidebar-v2 .sm-button::before {
-    color: #3ba9d0FF !important;
-}
-img.object-contain.agency-logo{
-  max-width:140px !important;
-  height: 90px !important;
-}
-body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span:not(span.cpanel) {
-    color: #34343EFF !important;
-}
-body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span, body #app .sidebar-v2-agency .template-library-sidebar-root p, body #app .sidebar-v2-agency .template-library-sidebar-root p span, body #app .sidebar-v2-agency .template-library-sidebar-root div, body #app .sidebar-v2-agency .template-library-sidebar-root div span, body #app .sidebar-v2-agency .template-library-sidebar-root .n-collapse-item__header-main, body #app .sidebar-v2-agency .template-library-sidebar-root .n-collapse-item__header-main, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a span {
-    font-family: Poppins !important;
-}
-.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover{
-    margin-bottom: 7px !important;
-}
-body .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a:hover{
-  background: #ccbe6dFF !important;
-}
-body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active span:not(span.cpanel) {
-    color: #ffffff !important;
-}
-body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover span:not(span.cpanel) {
-    color: #ffffff !important;
-}
-.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover {
-    text-decoration: none !important;
-    width: 94% !important;
-    border: 2px solid #f4f4f4 !important;
-    border-radius: 100px !important;
-    margin-left: 10px !important;
-    margin-bottom: 5px !important;
-}
-.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a {
-    padding-top: 7px !important;
-    padding-bottom: 7px !important;
-    margin-bottom: 7px !important;
-    margin-top: 7px !important;
-  margin-left: 10px !important;
-}
-
 a#sb_agency-dashboard::before {
     content: "\f624";
     font-family: "Font Awesome 6 Free" !important;
@@ -399,18 +300,19 @@ a#sb_agency-saas-configurator::before{
   content: "\e601" !important; /* contoh: cloud icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.5rem;
 }
-#sb_agency-saas-configurator span.h-5.w-5.mr-2 {
-    display: none;
+#sb_agency-saas-configurator span.h-5{
+  display:none;
 }
+/*Icon di sub account*/
 a#sb_location-prospect::before{
    content: "\e5c5" !important; /* contoh: Font Awesome search icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.5rem;
 }
@@ -421,7 +323,7 @@ a#sb_agency-accounts::before{
   content: "\f0c0" !important; /* Font Awesome users icon */
   font-family: "Font Awesome 5 Free" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important; /* bisa ganti warna */
+  color: #3ba9d0FF !important; /* bisa ganti warna */
   font-size: 18px;
   margin-right: 0.5rem;
 }
@@ -432,7 +334,7 @@ a#sb_agency-account-snapshots::before{
   content: "\f24d" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.7rem;
 }
@@ -443,7 +345,7 @@ a#sb_agency-account-reselling::before{
   content: "\e605" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.5rem;
 }
@@ -454,7 +356,7 @@ a#sb_agency-marketplace::before{
   content: "\f0a1" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 5 Free" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.7rem;
 }
@@ -465,7 +367,7 @@ a#sb_agency-partners::before{
   content: "\f4c6" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 5 Free" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.4rem;
 }
@@ -476,7 +378,7 @@ a#sb_saas-education::before{
   content: "\f51c" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.3rem;
 }
@@ -487,7 +389,7 @@ a#sb_agency-ideas::before{
   content: "\f672" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.7rem;
 }
@@ -498,11 +400,15 @@ a#sb_mobile-app-customiser::before{
   content: "\f3cd" !important; /* Font Awesome 'copy' icon */
   font-family: "Font Awesome 6 Pro" !important;
   font-weight: 900 !important;
-  color: #3ba9d0 !important;
+  color: #3ba9d0FF !important;
   font-size: 18px;
   margin-right: 0.7rem;
 }
 #sb_mobile-app-customiser img{
   display:none;
 }
-/*End - CSS when not using themes or using default themes*/
+  #sb_agency-university::before{
+  font-size:18px !important;
+}
+
+/* End CSS */
