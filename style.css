@@ -182,11 +182,11 @@ sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2 .hl_location-text spa
   background-color:white !important;
 }
 
-/* Background navigasi di sub account */
+/* Background navigation on sub account */
 body .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] .sidebar-v2-agency #sidebar-v2 .hl_nav-header-without-footer nav a:hover, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a.active, body[data-hlpt-tsg='hlpt-advanced-settings'] #app #sidebar-v2 .hl_nav-settings nav a:hover{
   background: #ccbe6dFF !important;
 }
-/*Pembatas Group Sub Account*/
+/*divider Group Sub Account*/
 .divider{
   display:none !important;
 }
@@ -560,18 +560,18 @@ body .sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, body[data-hlp
     display: none;
 }
 
-/*Logo navigasi*/
+/*Logo on navigation*/
 .agency-logo-container img{
   height:70px !important;
 }
-/*Warna BG Navigasi*/
+/*Background color navigation*/
 body #app #sidebar-v2{
   background-color: #F0EFE7 !important;
 }
 header.hl_header {
     background-color: #F1EFE7 !important;
 }
-/*Lebar background navigasi ketika hover*/
+/*Navigation background width when hovering*/
 .v2-collapse.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .v2-collapse.sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover, .v2-collapse.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a.active, .v2-collapse.sidebar-v2-location #sidebar-v2 .hl_nav-header nav a:hover
  {
     width: 80% !important;
@@ -581,7 +581,7 @@ header.hl_header {
  {
    padding-left: 10px !important;
 }
-/* Warna background setiap navigasi ketika aktif dan hover */
+/* Background color of each navigation when active and hover on agency dashboard */
 .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a.active, .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a:hover {
     text-decoration: none !important;
     width: 94% !important;
@@ -591,7 +591,7 @@ header.hl_header {
     border-radius: 100px !important;
   background: #CCBF6D !important;
 }
-/*Jarak antar Navigasi di agency dashboard*/
+/*Distance between Navigations on the agency dashboard*/
 .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a
  {
    width: 94% !important;
@@ -604,7 +604,7 @@ header.hl_header {
 .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a, .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a{
   margin-left: 10px !important;
 }
-/* icon dan warna icon di agency dashboard*/
+/* icons and icon colors on the agency dashboard*/
 body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a span.cpanel svg.cp-icon, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-settings nav a span.cpanel, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span.cpanel, body #app .sidebar-v2-agency #sidebar-v2 .hl_nav-header nav a span.cpanel svg.cp-icon {
     color: #3ba9d0FF; !important;
 }
@@ -678,7 +678,7 @@ a#sb_agency-saas-configurator::before{
 #sb_agency-saas-configurator span.h-5{
   display:none;
 }
-/*Icon di sub account*/
+/*Icon on sub account*/
 a#sb_location-prospect::before{
    content: "\e5c5" !important; /* contoh: Font Awesome search icon */
   font-family: "Font Awesome 6 Pro" !important;
