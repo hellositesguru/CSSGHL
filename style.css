@@ -1,4 +1,3 @@
-
 .sidebar-v2-location #sidebar-v2 .hl_nav-header-without-footer nav a {
  opacity: 1 !important;
     width: 94% !important;
@@ -781,4 +780,16 @@ a#sb_mobile-app-customiser::before{
 }
   #sb_agency-university::before{
   font-size:18px !important;
+}
+/*Changed quick action icon*/
+  div#quickActions::before {
+    content: '\f007';
+    font-family: 'FontAwesome';
+    font-size: 15px;
+    color: #CCBF6D !important;
+    display: block;
+    z-index: 1;
+}
+div#quickActions img{
+  display:none;
 }
