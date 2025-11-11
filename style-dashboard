@@ -411,4 +411,8 @@ a#sb_mobile-app-customiser::before{
   font-size:18px !important;
 }
 
+.w-14 {
+    width: 4.5rem !important;
+}
+
 /* End CSS */
