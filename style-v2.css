@@ -1,15 +1,25 @@
-/* Start CSS no theme */
+/*Prospecting*/
+button#add-prospect-btn {
+    background: #CCBF6D !important;
+}
+/* Saas Configurator*/
 button#addPlans {
     background-color: #CCBF6D !important;
-}
-.n-button {
-  border: 1px solid #CCBF6D !important;
 }
 .hl-card-content .hl-text-sm-medium {
   color: #CCBF6D !important;
 }
-/* Saas Configuratir*/
-
+.cursor-pointer {
+    cursor: pointer;
+    color: #CCBF6D !important;
+}
+.priceFooter .cursor-pointer {
+    cursor: pointer;
+    color: black !important;
+}
+.priceFooter .hl-text-sm-medium {
+  color: black !important;
+}
 
 /*Charles - Navigation - Account Snapshots - Start*/
 button .hr-button__content svg.h-4.w-4 {
@@ -840,5 +850,3 @@ a#sb_mobile-app-customiser::before{
 div#quickActions img{
   display:none;
 }
-  
-/* End CSS */
