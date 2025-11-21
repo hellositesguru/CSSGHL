@@ -1,0 +1,84 @@
+.message-bubble.cnv-message-bubble {
+    background: #F4F4F4 !important;
+}
+--n-border: 1px solid #34343E !important;
+  --n-background-color: #CCBE80 !important;
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important;/* 1) Force background + text color for all conversation bubbles */
+.message-bubble.cnv-message-bubble.cnv-message-bubble {
+  background-color: #EDE8D1 !important; /* your background color */
+  color: #111 !important;               /* text color */
+}
+/* 2) Ensure child elements match the text color */
+.message-bubble.cnv-message-bubble.cnv-message-bubble * {
+  color: #111 !important;
+}
+/* 3) Fix the icon color (uses currentColor) */
+.message-bubble.cnv-message-bubble.cnv-message-bubble .message-info button svg,
+.message-bubble.cnv-message-bubble.cnv-message-bubble .message-info button svg path {
+  color: #111 !important;
+  fill: currentColor !important;
+}
+/* 4) Override inline styles if present */
+.message-bubble.cnv-message-bubble[style],
+.message-bubble.cnv-message-bubble[style] * {
+  background-color: #EDE8D1 !important;
+  color: #111 !important;
+}
+/*Tail color*/
+.message-bubble.cnv-message-bubble::before,
+.message-bubble.cnv-message-bubble::after {
+  content: none !important;
+}
+/*End code for Bubble conversation*/
+/*code from theme builder*/
+@import url('https://cdn2.locationapi.co/themegenerator/dashboard-login-main-center.css'); :root { --hlpt-primary-theme-color: #CCBE6D; --hlpt-primary-theme-bg-color: #34343E; --hlpt-left-nav-color: #34343E; --hlpt-footer-note: "support@stringmarketing.com";  --custom-loading-icon: url('https://storage.googleapis.com/msgsndr/PmiPWLmintK2e90DjnlO/media/67026268e12bb9777f556aac.png') !important; --hlpt-adv-loginlogo-size: 350px; --hlpt-adv-loginlogo-img: url('https://storage.googleapis.com/msgsndr/PmiPWLmintK2e90DjnlO/media/66e9f7fc2e82ca1ead116520.png') !important; --hlpt-main-body-image: url('https://storage.googleapis.com/msgsndr/PmiPWLmintK2e90DjnlO/media/67ae1462d1f86a01f4d877ae.png') !important;} body #app .sidebar-v2-agency .hl_login .hl_login--header .container-fluid a img {opacity: 0 !important;}
+/*code for hiding dashboard numbers*/
+body{color: #0000!important;}
+.statisticSpace
+{visibility:hidden!important;
+position:absolute !important;}
+.hl_form-builder--main { padding: 0px 20px !important;}
+#custom-themegen-header-btn {display:none;}
+#sb_app-marketplace {display: none !important;}
+#sb_location-mobile-app{display: none !important;}
+#tb_blogs; #tb_websites, #tb_wordpress-v2{display: none !important;}
+a.branded-banner {display: none !important;}
+a#tb_wordpress-v2  {display: none !important;}
+div.wp-features{display: none;}
+#sb_ai-employee-promo {
+    display: none !important;
+}
+.iframe-back-shade {
+  display: none !important;
+}
+.table_tag-more, .tag-more {color:#34343e !important}
+.w-14 {
+    width: 4.5rem !important;
+}
+/*Digital Diabetes Hide Contact Custom Field Folders*/
+div#nMl9e2x0FLF7jwzKPzEf{display:none !important;} /*hidden folder*/
+a#or0lFkDrukkPVXhQ2ZDe {display:none !important;} /*referring providers tab - temp
+sb_or0lFkDrukkPVXhQ2ZDe.custom_objects.referring_providers*/
+/*Prospecting*/
+button#add-prospect-btn {
+    background: #CCBF6D !important;
+}
+/* Saas Configurator*/
+button#addPlans {
+    background-color: #CCBF6D !important;
+}
+.hl-card-content .hl-text-sm-medium {
+  color: #CCBF6D !important;
+}
+.cursor-pointer {
+    cursor: pointer;
+    color: #CCBF6D !important;
+}
+.priceFooter .cursor-pointer {
+    cursor: pointer;
+    color: black !important;
+}
+.priceFooter .hl-text-sm-medium {
+  color: black !important;
+}
