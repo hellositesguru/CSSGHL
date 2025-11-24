@@ -1,6 +1,20 @@
-.message-bubble.cnv-message-bubble {
-    background: #F4F4F4 !important;
+/*Start - Original code DO NOT TOUCH*/
+.n-button{
+    background-color: #d92d208a  !important;
 }
+
+.n-button:hover{
+    background-color: #D92D20 !important;
+}
+
+.messages-single div.message-bubble {
+    background: #f4f4f5 !important;
+}
+
+.messages-single .message-bubble{
+  background: #f4f4f5 !important;
+}
+
 --n-border: 1px solid #34343E !important;
   --n-background-color: #CCBE80 !important;
   background-color: #CCBE80 !important;
@@ -34,7 +48,6 @@
 /*code from theme builder*/
 @import url('https://cdn2.locationapi.co/themegenerator/dashboard-login-main-center.css'); :root { --hlpt-primary-theme-color: #CCBE6D; --hlpt-primary-theme-bg-color: #34343E; --hlpt-left-nav-color: #34343E; --hlpt-footer-note: "support@stringmarketing.com";  --custom-loading-icon: url('https://storage.googleapis.com/msgsndr/PmiPWLmintK2e90DjnlO/media/67026268e12bb9777f556aac.png') !important; --hlpt-adv-loginlogo-size: 350px; --hlpt-adv-loginlogo-img: url('https://storage.googleapis.com/msgsndr/PmiPWLmintK2e90DjnlO/media/66e9f7fc2e82ca1ead116520.png') !important; --hlpt-main-body-image: url('https://storage.googleapis.com/msgsndr/PmiPWLmintK2e90DjnlO/media/67ae1462d1f86a01f4d877ae.png') !important;} body #app .sidebar-v2-agency .hl_login .hl_login--header .container-fluid a img {opacity: 0 !important;}
 /*code for hiding dashboard numbers*/
-body{color: #0000!important;}
 .statisticSpace
 {visibility:hidden!important;
 position:absolute !important;}
@@ -56,10 +69,7 @@ div.wp-features{display: none;}
 .w-14 {
     width: 4.5rem !important;
 }
-/*Digital Diabetes Hide Contact Custom Field Folders*/
-div#nMl9e2x0FLF7jwzKPzEf{display:none !important;} /*hidden folder*/
-a#or0lFkDrukkPVXhQ2ZDe {display:none !important;} /*referring providers tab - temp
-sb_or0lFkDrukkPVXhQ2ZDe.custom_objects.referring_providers*/
+
 /*Prospecting*/
 button#add-prospect-btn {
     background: #CCBF6D !important;
@@ -82,3 +92,9 @@ button#addPlans {
 .priceFooter .hl-text-sm-medium {
   color: black !important;
 }
+
+
+/*Digital Diabetes Hide Contact Custom Field Folders*/
+div#nMl9e2x0FLF7jwzKPzEf{display:none !important;} /*hidden folder*/
+
+/*Stop - Original code DO NOT TOUCH*/
