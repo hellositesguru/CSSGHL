@@ -22,7 +22,209 @@ button#addPlans {
   color: black !important;
 }
 
+/*Charles - Navigation - Sub Account - Setting - Start*/
+/*Navigation - Phone Numbers*/
+/*menu tab*/
+.hl_affiliate-nav li.--active > a {
+  display: inline-block;
+  border-bottom: 3px solid #CCBE80 !important;
+  padding-bottom: 6px !important;
+}
+
+/*tab phone numbers*/
+/*btn add number*/
+button#btn-add-number {
+  --n-border: 1px solid #34343E !important;
+  --n-background-color: #34343E !important;
+  background-color: #34343E !important;
+  border: 1px solid #34343E !important;
+  color: white !important!;
+}
+
+.hr-button__content svg path {
+    stroke: #ffffff !important;
+    fill: #ffffff !important;
+}
+
+/*description title*/
+p.mb-0.text-gray-500.ui-text-sm-normal {
+  font: 14px 'Poppins' !important;
+}
+
+/*bg header table*/
+th.hr-data-table-th {
+  background-color: #C5C5C5 !important;
+}
+
+/*tab messaging*/
+/*description*/
+p.text-gray-600.ui-text-sm-regular, p.break-all.text-gray-500.ui-text-md-normal {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/*btn save*/
+button#PendoButton\.SAVE {
+  --n-border: 1px solid #34343E !important;
+  --n-background-color: #34343E !important;
+  background-color: #34343E !important;
+  border: 1px solid #34343E !important;
+  color: white !important!;
+}
+
+/*checked*/
+.hr-checkbox-box__border {
+  border-color: #34343E !important;
+}
+
+.hr-checkbox-icon svg path {
+  stroke: #34343E !important;
+  fill: #34343E !important;
+}
+
+/*btn apply messaging filter*/
+button#applyFilterServiceButton {
+  --n-border: 1px solid #34343E !important;
+  --n-background-color: #34343E !important;
+  background-color: #34343E !important;
+  border: 1px solid #34343E !important;
+  color: white !important!;
+}
+
+/*tab voice*/
+/*btn save*/
+button#save-call-settings-btn, button#add-script-btn, button#add-script-btn, button#call-script-save-button, button#sip-get-started__btn, button#save-configuration, button#test-incoming-call, button#add-new-sip-user{
+  --n-border: 1px solid #34343E !important;
+  --n-background-color: #34343E !important;
+  background-color: #34343E !important;
+  border: 1px solid #34343E !important;
+  color: white !important!;
+}
+
+/* tab trust center*/
+ul.flex li.flex.items-center.justify-between {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important;
+}
+
+/*btn*/
+button#btn-phone-system-settings, button#button-action-0, button#cnam-button-id {
+  --n-border: 1px solid #34343E !important;
+  --n-background-color: #34343E !important;
+  background-color: #34343E !important;
+  border: 1px solid #34343E !important;
+  color: white !important;
+}
+
+/*Charles - Navigation - Sub Account - Setting - Stop*/
+
+
 /*Charles - Navigation - Sub Account - Reporting - Start*/
+/*Tab Appointment Report*/
+/*title*/
+p.hl-display-sm-medium {
+font-weight: 600 !important;
+}
+
+/*card title*/
+p.text-gray-900.hl-text-md-medium {
+ font-family: 'Poppins', sans-serif !important;
+}
+
+/*value card*/
+.text-center.font-medium.text-5xl.text-gray-900 {
+  font-size: 48px !important;
+}
+
+/*btn confirm & add*/
+button#dashboard_breadcrumb_add_widget_modal-footer_btn-confirm_add,
+button#dashboard_breadcrumb_add_widget_modal-footer_btn-confirm_add:hover {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important;
+  --n-background-color: #CCBE80 !important;
+  --n-border: 1px solid #34343E !important;
+  box-shadow: none !important;
+}
+
+/*Tab Agent Report*/
+/*title*/
+.agent_reporting_main .hl_controls--left h2 {
+ font: 18px 'Poppins' !important;
+ font-weight: bold !important;
+}
+
+/*btn custom web*/
+button#dropdown-ydzeadjak__BV_toggle_, button#dropdown-r4fbqm0me__BV_toggle_ {
+ font: 14px 'Poppins' !important;
+}
+
+/*card title*/
+.card-header .d-flex.w-full h2.mr-0 {
+ font: 18px 'Poppins' !important;
+}
+
+/*title leaderboard*/
+.d-flex.justify-content-between.align-items-center.flex-wrap div[style] {
+    font-size: 24px !important;
+}
+
+/*btn fetch*/
+button.btn.btn-blue {
+  --n-border: 1px solid #34343E !important;
+  --n-background-color: #34343E !important;
+  background-color: #34343E !important;
+  border: 1px solid #34343E !important;
+  color: white !important!;
+
+}
+
+/*compare*/
+button.btn.btn-link {
+  color: #34343E !important;
+}
+
+/*arrow*/
+i.fas.fa-arrow-up.text-success {
+    color: #34343e !important;
+}
+
+/*Tab Call Report*/
+/*title*/
+p.hl-display-sm-medium, p.text-gray-900.hl-text-lg-medium {
+  font: 18px 'Poppins' !important;
+}
+
+/*text avg*/
+p.flex.items-center.hl-text-md-normal, span.mx-3 {
+  color: #334054 !important;
+}
+
+/*placeholder*/
+.n-base-selection-overlay__wrapper[data-v-5f1f8507] {
+    font-size: 16px !important;
+    font-family: 'Poppins', sans-serif !important;
+}
+
+/*Tab Attribution Report*/
+/* btn - first & last */
+.hl-radio-group-item {
+    background: #ffffff !important;
+    border: none !important;
+}
+
+/* style radio text */
+label.n-radio-button.radio-group-button.hl-radio-group-item.compact-radio-item 
+.hl-radio-group-item-content > div[data-v-5f1f8507] {
+    font-family: 'Poppins', sans-serif !important;
+    font-size: 16px !important;
+    color: #3F3F3F !important;
+}
+
+
+/*value card*/
+p.stat-number.hl-display-sm-medium {
+font: 18px 'Poppins' !important;
+}
+
 /*Tab Custom Reports*/
 /*title*/
 p.text-gray-900.hl-display-sm-medium {
@@ -132,6 +334,11 @@ a {
 button.page-link {
   background-color: #C5C5C5 !important;
   color: #34343E !important;
+}
+
+/*text not found*/
+.text-center.my-2 {
+  font-weight: normal !important;
 }
 
 /*Charles - Navigation - Sub Account - Reporting - Stop*/
