@@ -23,6 +23,119 @@ button#addPlans {
 }
 
 /*Charles - Navigation - Sub Account - Setting - Start*/
+/*Navigation - Custom Fields*/
+/*btn*/
+button.add-folder-button,
+button.add-field-button.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.shadow-sm.text-white.bg-apple-500.hover\:bg-apple-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-apple-500,
+button.add-folder-button.w-20 {
+  --n-background-color: #CCBE80 !important;
+  background-color: #CCBE80 !important;
+  border: 1px solid #CCBE80 !important;
+}
+
+/*svg copy*/
+svg.h-5.w-5 {
+  stroke: #34343E !important;
+}
+
+/*btn next*/
+button.add-folder-button.mr-2.w-20.flex.items-center.justify-center.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600{
+  --n-border: 1px solid #34343E !important;
+  --n-background-color: #34343E !important;
+  background-color: #34343E !important;
+  border: 1px solid #34343E !important;
+}
+
+/*btn text all*/
+span.text-blue-500.truncate.max-w-\[500px\],
+a#nav-launchpad {
+  color: #34343E !important;
+}
+
+/*page size*/
+span.text-blue-500 {
+  color: #34343E !important;
+}
+
+/*bg header table*/
+th.px-3.py-3.text-sm.font-bold.text-gray-900.capitalize.tracking-wider.text-left {
+  background-color: #34343E1A !important;
+}
+
+/*number table*/
+span.relative.inline-flex.items-center.px-3.py-2.border.text-sm.font-medium.z-10.bg-indigo-50.border-blue-500.text-blue-500.cursor-pointer {
+  border: none !important;
+  background-color: #EDEDED !important;
+  color: #34343E !important;
+}
+
+
+/*Navigation - Custom Values*/
+
+/*Navigation - Manage Scoring*/
+
+
+/*Navigation - Domains*/
+/*btn connect a domain*/
+button#domains-btn-primary,
+button#enable-domain-purchase-modal-btn,
+button#purchase-domain, button#redirect-header-btn-primary {
+  --n-border: 1px solid #34343E !important;
+  --n-background-color: #CCBE80 !important;
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important;
+  color: #34343E !important;
+}
+
+button#domains-btn-primary:hover,
+button#enable-domain-purchase-modal-btn:hover,
+button#purchase-domain:hover, 
+button#redirect-header-btn-primary:hover {
+  background-color: #CCBE80 !important; 
+  color: white !important;
+}
+
+/*title*/
+div#purchase-transfer-benefits-heading.text-gray-900.hlui-text, div.text-gray-900.font-semibold.flex.items-center.gap-1.hl-text-lg-medium, div.text-gray-900.truncate.hl-text-lg-medium{
+font-size: 18px !important;  
+}
+
+/*txt compare*/
+div.hl-text-sm-medium{
+  font-size: 14px !important;
+}
+
+/*list benefit*/
+div#benefit-text-{{ benefit.testId }}.text-gray-700.truncate.hlui-text{
+  font-size: 16px !important;
+}
+
+/*bg check*/
+div.bg-green-100 {
+  background-color: white !important;
+}
+
+/*btn back to*/
+div.hl-text-sm-medium {
+  color: #34343E !important;
+}
+
+/*title domain*/
+div.text-gray-900.hl-display-sm-semibold {
+  font-size: 36px !important;
+}
+
+/*list domain*/
+div.flex.items-center.gap-3.hl-text-md-medium {
+  color: #607179 !important;
+  font-size: 16px !important;
+}
+
+/*text connect*/
+div.flex.items-center.gap-3.hl-text-sm-medium {
+  font-size: 14px !important;
+}
+
 /*Navigation - Phone Numbers*/
 /*menu tab*/
 .hl_affiliate-nav li.--active > a {
@@ -2273,3 +2386,4 @@ div#quickActions img{
   display:none;
 }
 /* End CSS */
+
