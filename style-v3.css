@@ -69,11 +69,78 @@ span.relative.inline-flex.items-center.px-3.py-2.border.text-sm.font-medium.z-10
   color: #34343E !important;
 }
 
-
 /*Navigation - Custom Values*/
+/*btn add folder*/
+button#add-folder-button {
+  --n-border: 1px solid #34343E !important;
+  --n-text-color: #34343E !important;
+}
+
+/*btn custom value*/
+button#add-custom-value-button,
+button#confirm-edit-custom-value,
+button#confirm-add-folder {
+  --n-color: #34343E !important;
+--n-border: 1px solid #34343E !important; 
+--n-text-color: #ffffff !important;
+}
+
+/*border pagination*/
+button#prev-button {
+   --n-border: 1px solid #34343E !important; 
+}
 
 /*Navigation - Manage Scoring*/
+/*btn save*/
+button#save-btn{
+  --n-border: 1px solid #34343E !important;
+  --n-background-color: #CCBE80 !important;
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important;
+  color: #34343E; 
+}
 
+/* link Learn More */
+.sub-heading.learn-more-text a {
+  color: #CCBE80 !important;
+}
+
+/* pagination active */
+div.n-pagination-item.n-pagination-item--active.n-pagination-item--clickable {
+  color: #CCBE80 !important;
+}
+
+/*Navigation - Private Integrations*/
+/*btn create new integration*/
+button#no-apps-found-btn-positive-action{
+--n-color: #34343E !important;
+--n-border: 1px solid #34343E !important; 
+--n-text-color: #ffffff !important;    
+}
+
+/*Navigation - Tags*/
+/*btn - new tag*/
+button#create-tag-button{
+--n-color: #34343E !important;
+--n-border: 1px solid #34343E !important; 
+--n-text-color: #ffffff !important;  
+}
+
+/*Navigation - Audit Logs*/
+/*btn - Refresh*/
+button#refresh-button{
+--n-color: #34343E !important;
+--n-border: 1px solid #34343E !important; 
+--n-text-color: #ffffff !important;
+}
+
+/*Navigation - Brand Boar*/
+/*btn add design & add brand*/
+button#pg-brand-boards-brand-kit-header-btn-primary, button#pg-brand-boards-brand-kit-header-btn-primary, button#pg-brand-boards-brand-voice-list-table-empty-btn-positive-action {
+  --n-color: #34343E !important;
+--n-border: 1px solid #34343E !important; 
+--n-text-color: #ffffff !important;
+} 
 
 /*Navigation - Domains*/
 /*btn connect a domain*/
