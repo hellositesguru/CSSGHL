@@ -22,6 +22,13 @@ button#addPlans {
   color: black !important;
 }
 
+/*Charles - Navigation - University*/
+button#university-community-cta {
+--n-color: #34343E !important;
+--n-border: 1px solid #34343E !important; 
+--n-text-color: #ffffff !important;
+}
+
 /*Charles - Navigation - Sub Account - Setting - Start*/
 /*Navigation - Custom Fields*/
 /*btn*/
