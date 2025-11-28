@@ -29,6 +29,42 @@ button#university-community-cta {
 --n-text-color: #ffffff !important;
 }
 
+/*Charles - Navigation Setting - Start*/
+/*Setting - Company*/
+/*Tab Basic Details*/
+/*btn save setting*/
+button#save-setting{
+  --n-border: 1px solid #34343E !important;
+  --n-background-color: #CCBE80 !important;
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important;
+}
+
+/*svg copy*/
+.mb-4.flex.items-start > svg.h-5.w-5.cursor-pointer {
+  stroke: #CCBE80 !important;
+}
+
+/*Tab Advance Setting*/
+/*note size*/
+.my-6.flex.items-center.gap-2.text-primary-600 .hl-text-md-regular {
+  font-size:  !important;
+}
+
+/*color note*/
+p.hl-text-sm-regular{
+  color: #34343E !important;
+}
+
+/*Setting - System Email*/
+/*btn change template*/
+button#default-system-emails-user-management-welcome__open-set-template-modal-btn, button#default-system-emails-user-management-reset-password__open-set-template-modal-btn, button#default-system-emails-user-management-verification-code__open-set-template-modal-btn {
+background-color: #CCBE80 !important;
+--n-border: 1px solid #34343E !important; 
+--n-text-color: #34343E !important;
+}
+/*Charles - Navigation Setting - Stop*/
+
 /*Charles - Navigation - Sub Account - Setting - Start*/
 /*Navigation - Custom Fields*/
 /*btn*/
