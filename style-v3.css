@@ -30,6 +30,137 @@ button#university-community-cta {
 }
 
 /*Charles - Navigation Setting - Start*/
+/*Setting - Ask AI Configuration*/
+/*btn*/
+button#empty-state-map-agent-btn, button#map-new-agent-btn, button#step1-modal-next-btn {
+  background-color: #CCBE80 !important;
+  color: #34343E !important;
+  border: 1px solid #34343E !important;
+}
+
+/* bg step*/
+.w-8.h-8.rounded-full.bg-blue-600.text-white.flex.items-center.justify-center.text-sm.font-semibold{
+  background-color: #34343E !important;
+}
+
+/*text step*/
+ span.ml-2.text-sm.font-medium.text-gray-500 {
+  color: #667085 !important;
+}
+span.ml-2.text-sm.font-medium.text-blue-600{
+  color: #34343E !important;
+}
+
+/* Setting - Private Integrations*/
+/*btn create new & next*/
+button#no-apps-found-btn-positive-action, button#btn-next {
+  background-color: #34343E !important;
+}
+/*hover field*/
+#name:hover,
+#name:focus-within,
+#description:hover,
+#description:focus-within {
+  border-color: #34343E !important;
+  --n-border-hover: 1px solid #34343E !important;
+  --n-border-focus: 1px solid #34343E !important;
+  --n-box-shadow-focus: none !important;
+}
+
+/*Setting - Stripe*/
+/*btn disconnect Stripe*/
+button#disconnect-stripe-button, button#refresh-btn {
+  background-color: #34343E !important;
+}
+
+/*key*/
+.flex.items-center.gap-1 > p.hr-text.hr-text-sm.hr-text-semibold.text-blue-700, p.hr-text.hr-text-lg.hr-text-semibold.hr-button__content-default-slot {
+  color: #CCBE80 !important;
+}
+
+/*Setting - API Keys*/
+/*alert*/
+div#security-alert {
+  border: 1px solid #607179 !important;
+  background-color: #fafafa69 !important;
+}
+
+/*btn create new*/
+button.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.shadow-sm.text-white.bg-apple-500.hover\:bg-apple-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-apple-500, button.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.shadow-sm.text-white.bg-apple-500.hover\:bg-apple-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-apple-500 {
+  background-color: #CCBE80 !important;
+  border: 1px solid #CCBE80 !important;
+  color: #34343E !important;
+}
+
+/*hover*/
+button.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.shadow-sm.text-white.bg-apple-500.hover\:bg-apple-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-apple-500:hover {
+  color: #ffffff !important;
+}
+
+/*txt btn cancel*/
+button.hl-btn.inline-flex.items-center.px-4.py-2.border.border-gray-300.shadow-sm.text-sm.font-medium.rounded.text-gray-700.hover\:bg-gray-50.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-500 {
+  background-color: #CCBE80 !important;
+  border: 1px solid #CCBE80 !important;
+  color: #34343E !important;
+}
+
+button.hl-btn.inline-flex.items-center.px-4.py-2.border.border-gray-300.shadow-sm.text-sm.font-medium.rounded.text-gray-700.hover\:bg-gray-50.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-500:hover {
+  color: #ffffff !important;
+}
+
+/*svg delete*/
+i.icon.icon-trash.pointer.--light{
+  color: red !important;
+}
+
+/*bg old*/
+span.inline-flex.items-center.px-3.py-0\.5.rounded-full.text-sm.font-medium.bg-yellow-100.text-yellow-800.ml-2{
+  background-color: red !important;
+  color: white !important;
+}
+
+/*head table*/
+.table-wrap table.table thead th, .hl_settings--controls-left h2 {
+  color: #34343E !important;
+  font-weight: bold !important;
+}
+
+/*btn next*/
+a.page-link{
+  color: #34343E !important;
+}
+
+/* Setting - Compliance*/
+button#view-details.n-button {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important;
+  color: #34343E !important;
+}
+
+/*txt subscribe*/
+.hl-text-sm-semibold.text-primary-700{
+  color: #CCBE80 !important;
+}
+
+/*btn view & edit document*/
+button#view-document, button#update-baa {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important;
+  color: #34343E !important;
+}
+
+/*email*/
+p.mt-2.text-base.font-semibold.text-primary-700{
+  color: #CCBE80 !important;
+}
+
+/*Setting - Media Storage Usage*/
+/* page active table */
+div.n-pagination-item.n-pagination-item--active.n-pagination-item--clickable {
+  color: #CCBE80 !important;
+  border: 1px solid #CCBE80 !important;
+}
+
 /*Setting - Company*/
 /*Tab Basic Details*/
 /*btn save setting*/
