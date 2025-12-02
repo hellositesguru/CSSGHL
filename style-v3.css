@@ -30,6 +30,88 @@ button#university-community-cta {
 }
 
 /*Charles - Navigation Setting - Start*/
+/*Setting - Phone Integrations*/
+/*Tab - Agency Settings*/
+/*margin bottom & top picture*/
+.flex.w-full.items-center.justify-between.px-6.py-8{
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+/*btn learn more */
+button.hr-button.hr-button--default-type.hr-button--medium-type.hr-button--primary.hr-button--lg.flex.items-center.gap-2.rounded-md.px-4.py-2.flex.items-center.gap-2.rounded-md.px-4.py-2 {
+--n-color: #34343E !important;
+--n-border: 1px solid #34343E !important; 
+}
+
+/*Tab - Sub Account Settings*/
+/*btn move numbers*/
+button#btn-move-numbers {
+background-color: #34343E !important;
+--n-border: 1px solid #34343E !important; 
+}
+
+/*Tab - Account Creation*/
+/*btn learn more*/
+button#learn-more-btn{
+  color: #34343E !important; 
+}
+
+/*font style*/
+p.ui-text-sm-normal, .ui-card-content, p.text-gray-900.ui-display-sm-medium, p.ui-text-md-normal, b {
+ font-family: "Poppins", sans-serif !important;   
+}
+
+/*Tab - Email Notifications Settings*/
+/*btn update*/
+button#update-email-list-btn{
+background-color: #34343E !important;
+--n-border: 1px solid #34343E !important; 
+}
+
+/*Setting - Affiliates*/
+.col-sm-9 {
+  color: #34343E !important;
+}
+
+/*Setting - External AI Models*/
+/*title*/
+h1.text-gray-900.mb-2.text-3xl{
+  font-size: 18px !important;
+}
+
+/*Setting - Announcements*/
+/*switch btn*/
+.hr-switch.hr-switch--active.hr-switch--round.hr-switch--rubber-band.hr-switch-3xs.hr-switch--default .hr-switch__rail {
+  background-color: #34343E !important;
+}
+
+/*Setting - Workflow Premium Features*/
+/*txt learn more*/
+.text-gray-500.hl-text-sm-normal a {
+  color: #CCBE80 !important;
+}
+
+/*txt sub acc*/
+div.text-gray-900.mb-1.hl-text-lg-medium {
+  font-size: 18px !important;
+}
+
+/*Setting - AI Employee*/
+/*btn bulk, apply, & save*/
+button#bulk-rebilling, button#confirm-code-btn, button#save-offer-button {
+background-color: #CCBE80 !important;
+border: 1px solid #34343E !important; 
+color: #34343E !important;
+}
+
+/*hover txt btn*/
+button#bulk-rebilling:hover,
+button#confirm-code-btn:hover,
+button#save-offer-button:hover {
+  color: #ffffff !important;
+}
+
 /*Setting - Ask AI Configuration*/
 /*btn*/
 button#empty-state-map-agent-btn, button#map-new-agent-btn, button#step1-modal-next-btn {
@@ -71,6 +153,11 @@ button#no-apps-found-btn-positive-action, button#btn-next {
 /*btn disconnect Stripe*/
 button#disconnect-stripe-button, button#refresh-btn {
   background-color: #34343E !important;
+}
+/*text view*/
+.hr-button.hr-button--default-type.hr-button--medium-type.hr-button--text.hr-button--link.hr-button--sm.cursor-pointer.text-blue-700.underline {
+  color: #CCBE80 !important;
+  text-decoration-color: #CCBE80 !important;
 }
 
 /*key*/
