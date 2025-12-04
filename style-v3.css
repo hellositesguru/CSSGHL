@@ -30,6 +30,41 @@ button#university-community-cta {
 }
 
 /*Charles - Navigation Setting - Start*/
+/*Setting - Billing*/
+/*Tab Notifications*/
+button#save-changes-btn{
+  background-color: #EFF6FF !important;
+  color: #34343E !important;
+}
+
+/*Tab - Wallet & Transactions*/
+button#AddBalanceButton{
+  background-color: 
+}
+/*Tab - Payments*/
+/*txt primary*/
+/*text primary card*/
+.h-6.rounded-full.bg-blue-50.px-2.py-1.text-xs.font-medium.text-blue-600 {
+  background-color: #EFF6FF !important;
+  color: #34343E !important;
+}
+
+/*bg btn change & invoices*/
+button#hl-table-PaymentHistoryTable-filter-tab-charges {
+  background-color: #FAFAFA !important;
+}
+
+/*bg icon*/
+.flex.h-10.w-10.flex-shrink-0.items-center.justify-center.rounded-full.bg-gray-100, .flex.h-10.w-10.flex-shrink-0.items-center.justify-center.rounded-full.bg-gray-100 {
+  background-color: #CCBE6D1A !important;
+}
+
+/*Tab - Subscription*/
+/*btn show sub-account & subscribe*/
+.n-button__content span.hl-text-sm-semibold, .hl-text-xs-medium.text-primary-700 {
+  color: #CCBE80 !important;
+}
+
 /*Setting - Phone Integrations*/
 /*Tab - Agency Settings*/
 /*margin bottom & top picture*/
