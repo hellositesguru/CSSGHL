@@ -33,14 +33,29 @@ button#university-community-cta {
 /*Setting - Billing*/
 /*Tab Notifications*/
 button#save-changes-btn{
-  background-color: #EFF6FF !important;
+  background-color: #CCBE80 !important;
   color: #34343E !important;
+  border: 1px solid #34343E !important; 
 }
 
 /*Tab - Wallet & Transactions*/
-button#AddBalanceButton{
-  background-color: 
+/*txt span*/
+.mr-4.rounded-full.bg-blue-100.px-2.py-1.text-blue-600 .hl-text-sm-medium, span.flex.flex-col.items-center.rounded-full.bg-blue-100.px-2.py-1.text-blue-600 {
+    color: #343434 !important;
 }
+
+/*bg header table*/
+th.border.border-gray-50.p-4, th.border.border-gray-50.p-3.text-left, th.border.border-gray-50.p-2.text-left {
+background-color: #C5C5C5 !important;  
+}
+
+/*btn add balance*/
+button#AddBalanceButton{
+  background-color: #CCBE80 !important;
+  color: #34343E !important;
+  border: 1px solid #34343E !important; 
+}
+
 /*Tab - Payments*/
 /*txt primary*/
 /*text primary card*/
@@ -60,6 +75,13 @@ button#hl-table-PaymentHistoryTable-filter-tab-charges {
 }
 
 /*Tab - Subscription*/
+/*bg board title*/
+.plan-details.\!mb-8.flex.items-center.justify-between {
+  background: linear-gradient(90deg, #34343e 0%, #7a7565 50%, #ccbe80 100%);
+  padding: 1rem 1.5rem;
+  border-radius: 0.375rem;
+}
+
 /*btn show sub-account & subscribe*/
 .n-button__content span.hl-text-sm-semibold, .hl-text-xs-medium.text-primary-700 {
   color: #CCBE80 !important;
