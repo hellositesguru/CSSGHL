@@ -29,6 +29,167 @@ button#university-community-cta {
 --n-text-color: #ffffff !important;
 }
 
+/*th table*/
+th > div.text-nowrap.mr-1.pointer.close-content > span {
+  color: #34343E !important;
+  font-weight: bold !important; 
+}
+
+/*color svg*/
+#hl_smartlists-main .phone.copy-me.clipboard-holder::before {
+  color: #CCBE80 !important;
+}
+
+i.mx-2.mt-1.icon.icon-sms2{
+  stroke: #b0c66c !important;
+}
+
+/*txt date color*/
+.date-display.--blue{
+  color: #34343E !important;
+}
+
+/*btn more filters*/
+button#hl_smartlists--filter-btn {
+  background-color: #CCBE80 !important;
+  color: #34343E !important;
+}
+
+button#hl_smartlists--filter-btn:hover {
+  color: #ffffff !important;
+}
+
+/*Charles - Sub Account - Opportunities - Start*/
+/*Tab Opportunities*/
+button#add-record-btn {
+  background-color: #CCBE80 !important;
+  border: 1px solid !important;
+  color: #34343E !important;
+}
+
+button#add-record-btn:hover {
+  color:#ffffff !important;
+}
+
+/*label*/
+.relative.ml-\[7px\].mt-\[-21px\].flex.h-3\.5.w-3\.5.cursor-pointer.items-center.justify-center.rounded-\[50\%\].bg-blue-600.p-0\.5.text-\[10px\] {
+  background-color: #CCBE80 !important;
+  color: #ffffff !important;
+}
+
+/*btn create*/
+button#CreateUpdateOpportunity,
+button#next-import-button-1,
+button#manage-fields-apply {
+  background-color: #34343E !important;
+}
+
+/*add stage*/
+p.hr-text.hr-text-sm.hr-text-semibold.hr-button__content-default-slot > span {
+  color: #34343E !important;
+}
+
+/*bg checkbox*/
+.hr-checkbox-box {
+    background-color: #34343E !important;
+}
+
+/*Charles - Sub Account - Opportunities - Stop*/
+
+/*Charles - Sub Account - Calendars - Start*/
+/*Tab Calendar View*/
+/*bg heade calendar*/
+a.fc-col-header-cell-cushion, table.fc-col-header {
+ background-color: #d7d7d9 !important;
+}
+
+/*btn new*/
+button#new-appointment-button{
+  background-color: #34343E !important;
+}
+
+/*color txt clear all, see more, btn mange view*/
+button#see-more-button-users > div.text-primary-700.font-semibold, 
+button#clear-all-filters-btn > div.text-sm.font-semibold.text-primary-700, 
+button#see-more-button-calendars > div.text-primary-700.font-semibold, 
+button#customizations-button {
+  color: #CCBE80 !important;
+}
+
+/*color ordinal numbers*/
+a.fc-col-header-cell-cushion {
+  color: #34343E !important;
+}
+
+/*btn add description*/
+button#add-description-text {
+  color: #34343E !important;
+}
+
+/*btn switch deafult & custom*/
+button#book-appt-default {
+  border: 1px solid #CCBE80 !important;
+  background-color: #CCBE6D1A !important;
+  color: #34343E !important;
+}
+
+button#book-appt-default:hover {
+color: #CCBE80 !important;
+}
+
+/*Tab - Appointment View*/
+/*btn new appoinment*/
+button#book-appointment {
+background-color: #34343E !important;  
+}
+
+/*txt rescheduled*/
+span.w-26.truncate.bg-primary-50.text-primary-700.border-0.px-2.py-1.rounded-full.text-sm.font-medium{
+  color: #CCBE80 !important;
+}
+
+/*btn apply*/
+button#drawer-component-btn-positive-action {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important;
+}
+
+/*btn save as*/
+button#btn-save-smart-list {
+  background-color: #34343E !important;
+}
+
+/*Charles - Sub Account - Calendars - Stop*/
+
+/*Charles - Sub Account - Dashboard - Start*/
+/*btn edit & widget*/
+button#location-dashboard_btn--edit-dashboard, button#location-dashboard_btn--add-widget {
+  background-color: #CCBE80 !important;
+border: 1px solid #34343E !important;
+}
+
+/*font*/
+p.text-gray-500.hl-text-xs-regular, p.hl-text-md-medium, p.mt-0\.5.hl-text-xs-regular {
+ font-family: 'Poppins', sans-serif !important; 
+} 
+
+/*size value*/
+.text-3xl.font-medium.cursor-pointer, p.text-3xl.font-medium {
+  font-size: 18px !important;
+}
+
+/*color txt btn quick filter*/
+button.n-button .n-button__content .flex.items-center.gap-2 .hl-text-sm-medium {
+  color: #34343E !important;
+}
+
+/*border card*/
+div#location_dashboard-card-shared_dashboards-6554fabf736354c1176f2f6b {
+  border: 1px solid #34343E !important;
+}
+
+/*Charles - Sub Account - Dashboard - Stop*/
+
 /*Charles - Navigation Setting - Start*/
 /*Setting - Billing*/
 /*Tab Notifications*/
