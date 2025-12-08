@@ -1062,15 +1062,24 @@ button#positive-empty-agents-message, button#create-agent-btn {
 }
 
 /* btn create agent */
+/* Normal state */
 button#conversation-ai-settings-header-btn-primary,
 button#empty-agents-state-btn-positive-action,
 button#create-agent-selection-modal-footer-btn-positive-action,
 button#empty-custom-objects-list-btn-positive-action,
 button#modal-footer-btn-positive-action {
-  --n-border: 1px solid #34343E;
-  --n-background-color: #CCBE80;
   background-color: #CCBE80 !important;
   border: 1px solid #34343E !important;
+  color: #34343E !important;
+}
+
+/* Hover state */
+button#conversation-ai-settings-header-btn-primary:hover,
+button#empty-agents-state-btn-positive-action:hover,
+button#create-agent-selection-modal-footer-btn-positive-action:hover,
+button#empty-custom-objects-list-btn-positive-action:hover,
+button#modal-footer-btn-positive-action:hover {
+  color: #ffffff !important;
 }
 
 /*Tab Conversation AI*/
