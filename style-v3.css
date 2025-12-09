@@ -59,6 +59,211 @@ button#hl_smartlists--filter-btn:hover {
   color: #ffffff !important;
 }
 
+/*Charles - Sub Account - Payments - Start*/
+/*Tab Invoices & Estimates*/
+/*btn new*/
+button#create-invoice-btn {
+  background-color: #CCBE80 !important;
+border: 1px solid #34343E !important; 
+--n-text-color: #34343E !important;
+}
+
+button#create-invoice-btn:hover {
+--n-text-color: #ffffff !important;
+}
+
+/*btn clear & apply*/
+button#hl-table-invoices-filter-clear, button#hl-table-invoices-filter-apply {
+  color: #34343E !important;
+}
+
+/*btn setting save, send, schedule, next, confirm*/
+button.n-button--primary-type#pg-invoice-settings__btn-create,
+button#send-btn,
+button#pg-recurring-template-builder__schedule_invoice,
+button#next-btn,
+button#cancel-import-footer-btn-positive-action {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important; 
+  color: #34343E !important;
+}
+
+button.n-button--primary-type#pg-invoice-settings__btn-create:hover,
+button#send-btn:hover,
+button#pg-recurring-template-builder__schedule_invoice:hover,
+button#next-btn:hover,
+button#cancel-import-footer-btn-positive-action:hover {
+  color: #ffffff !important;
+}
+
+/*btn back & cancel*/
+button#back-to-invoice,
+button#cancel-btn {
+  color: #34343E !important;
+}
+
+/*Sub Tab Templates*/
+/*btn new template*/
+button#templates_btn-settings,
+button#estimate-templates__empty-btn-positive-action,
+button#editor-send-customer-save {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important; 
+  color: #34343E !important;
+}
+
+button#templates_btn-settings:hover,
+button#estimate-templates__empty-btn-positive-action:hover,
+button#editor-send-customer-save:hover {
+  color: #ffffff !important;
+}
+
+/*Sub Tab estimates*/
+/*btn new estimate*/
+button#estimates-header-btn-primary,
+button#estimates__empty-btn-positive-action,
+button#editor-send-customer {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important; 
+  color: #34343E !important;
+}
+
+button#estimates-header-btn-primary:hover,
+button#estimates__empty-btn-positive-action:hover,
+button#editor-send-customer:hover {
+  color: #ffffff !important;
+}
+
+/*btn add tax color*/
+.tax-update-section .flex.items-center .text-sm.text-primary-700.cursor-not-allowed {
+  color: #CCBE80 !important;
+}
+
+/*underline txt flow wellness*/
+p.d\:w-20.lg\:w-40.xl\:w-52.text-ellipsis.truncate.hover\:whitespace-normal.underline.font-bold.text-blue-500.hl-text-sm-medium {
+  text-decoration: underline !important;
+  text-decoration-color: #34343E !important;
+}
+
+/*Tab Documents & Contracts*/
+/*btn new*/
+button#page-email-builder-template__btn-actions {
+background-color: #34343E !important;
+border: 1px solid #34343E !important; 
+color: #ffffff !important;
+}
+
+/*setting*/
+/*btn back*/
+button#back-btn-proposal-settings {
+  color: #34343E !important;
+}
+
+/*bg menu setting*/
+.n-menu .n-menu-item-content--selected::before {
+  background-color: #CCBE80 !important;
+}
+
+/* active menu */
+.n-menu-item-content--selected .n-menu-item-content-header {
+  color: #ffffff !important; 
+}
+
+.n-menu-item-content-header {
+  color: #34343E !important;  
+}
+
+/*btn save*/
+button#save-customer-notification-settings.n-button.n-button--primary-type.n-button--medium-type.w-32 {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important; 
+  color: #34343E !important;
+}
+
+button#save-customer-notification-settings.n-button.n-button--primary-type.n-button--medium-type.w-32:hover {
+color: #ffffff !important;
+}
+
+/*btn home*/
+button#response-home-button {
+ color: #34343E !important;
+}
+
+/*Tab Orders*/
+/*btn download*/
+button#download-sample-products-csv {
+  color: #34343E !important;
+}
+
+/*bg status*/
+span.text-xs.py-1.px-2.rounded.inline-flex.justify-center.items-center.ui-tag.capitalize.text-white.bg-blue-500 {
+  background-color: #34343E !important;
+}
+
+/*bg table subscription*/
+th.px-6.py-3.bg-cool-gray-50.text-left.text-xs.leading-4.font-medium.text-cool-gray-500.uppercase.tracking-wider {
+  background-color: #C5C5C5 !important;
+  color: #34343E !important;
+}
+
+/*btn clear & apply*/
+button#hl-table-orders-filter-clear,
+button#hl-table-orders-filter-apply {
+  color: #34343E !important;
+}
+
+/*Tab Subscriptions*/
+/*btn add subscription & schedule*/
+button#subscriptions__header-btn-primary,
+button#open-create-subscription-modal-footer-btn-positive-action {
+background-color: #CCBE80 !important;
+border: 1px solid #34343E !important; 
+color: #34343E !important;
+}
+
+/*hover*/
+button#subscriptions__header-btn-primary:hover,
+button#open-create-subscription-modal-footer-btn-positive-action:hover {
+  color: #ffffff !important;
+}
+
+/*btn additional options*/
+button#Additional-Options {
+  color: #34343E !important;
+}
+
+/*bg header table products*/
+tr.text-left.text-gray-500.text-sm.border-b.bg-\[\#F9FAFB\] {
+  background-color: #C5C5C5 !important;
+}
+
+/*bg trial ends*/
+span.text-xs.py-1.px-2.rounded.inline-flex.justify-center.items-center.ui-tag.w-fit.text-white.bg-blue-500 {
+  background-color: #34343E !important;
+}
+
+/*Tab Payment Links*/
+/*btn create new payment link & save*/
+button#payment-links-header-btn-primary,
+button#editor-save {
+background-color: #CCBE80 !important;
+border: 1px solid #34343E !important; 
+color: #34343E !important;
+}
+
+button#payment-links-header-btn-primary:hover,
+button#editor-save:hover {
+  color: #ffffff !important;
+}
+
+/*btn clear & apply*/
+button#hl-table-paymentLinks-filter-clear,
+button#hl-table-paymentLinks-filter-apply {
+  color: #34343E !important;
+}
+
+/*Charles - Sub Account - Payments - Stop*/
+
 /*Charles - Sub Account - Opportunities - Start*/
 /*Tab Opportunities*/
 button#add-record-btn {
@@ -77,6 +282,7 @@ button#add-record-btn:hover {
   color: #ffffff !important;
 }
 
+/*Tab Pipelines*/
 /*btn create*/
 button#CreateUpdateOpportunity,
 button#next-import-button-1,
