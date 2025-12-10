@@ -540,7 +540,7 @@ p.hr-text.hr-text-sm.hr-text-semibold.hr-button__content-default-slot > span {
 
 /*bg checkbox*/
 .hr-checkbox-box {
-    background-color: #34343E !important;
+    /* background-color: #34343E !important; */
 }
 
 /*Charles - Sub Account - Opportunities - Stop*/
