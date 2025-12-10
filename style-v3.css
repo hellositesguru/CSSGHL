@@ -505,6 +505,24 @@ button#test-send-sms {
   border: 1px solid #34343E !important;
 }
 
+/*Tab Countdown Timers*/
+/*btn new*/
+button#emptyTag-btn-positive-action,
+button#countdown-timer-header-btn-primary,
+button#saveTemplate {
+background-color: #CCBE80 !important;
+border: 1px solid #34343E !important; 
+color: #34343E !important;
+}
+
+/*btn new*/
+button#emptyTag-btn-positive-action:hover,
+button#countdown-timer-header-btn-primary:hover,
+button#saveTemplate:hover {
+color: #ffffff !important;
+}
+
+
 /*Charles - Sub Account - Marketing - Stop*/
 
 /*Charles - Sub Account - Opportunities - Start*/
