@@ -102,6 +102,11 @@ button#cancel-btn {
   color: #34343E !important;
 }
 
+/*font btn back*/
+span.text-black.font-medium.force-font {
+  font-family: 'Poppins', sans-serif !important;
+}
+
 /*Sub Tab Templates*/
 /*btn new template*/
 button#templates_btn-settings,
