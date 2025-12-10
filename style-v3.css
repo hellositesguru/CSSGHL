@@ -267,7 +267,245 @@ button#hl-table-paymentLinks-filter-apply {
   color: #34343E !important;
 }
 
+/*Tab Transactions*/
+/*btn view import guide*/
+button#download-sample-txns-csv {
+  color: #34343E !important;
+}
+
+/*btn clear & apply */
+button#hl-table-transactions-filter-clear,
+button#hl-table-transactions-filter-apply {
+  color: #34343E !important;
+}
+
+/*Tab Products*/
+/*btn learn more, back, clear, click to upload, tax settings*/
+button#learn-more,
+button#back-to-products,
+button#sort-filter-component-reset,
+button#upload-button,
+button#termsOfUse {
+  color: #34343E !important;
+}
+
+/*btn create product, save*/
+button#create-product-btn,
+button#pg-create-product__btn-create,
+button#product-editor-save,
+button#sort-filter-component__apply-btn {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important; 
+  color: #34343E !important;
+}
+
+/*hover*/
+button#create-product-btn:hover,
+button#pg-create-product__btn-create:hover,
+button#product-editor-save:hover,
+button#sort-filter-component__apply-btn:hover {
+ color: #ffffff !important;
+}
+
+/*btn create collection*/
+button#create-collection-empty-btn {
+background-color: #34343E !important;
+border: 1px solid #34343E !important; 
+}
+
+/*hover field*/
+.hr-input.hr-input--resizable.hr-input--stateful:hover {
+  border: 1px solid #34343E !important;
+}
+
+/*bg switch btn*/
+.hr-switch.hr-switch--active .hr-switch__rail {
+  background-color: #34343E !important;
+}
+
+/*btn save*/
+button#save-inventory {
+  background-color: #34343E !important;
+}
+
+/*btn create cupon*/
+button#coupons__header-btn-primary,
+button#pg-create-coupon__btn-create {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important; 
+  color: #34343E !important;
+}
+
+/*hover*/
+button#coupons__header-btn-primary:hover,
+button#pg-create-coupon__btn-create:hover {
+  color: #ffffff !important;
+}
+
+/*btn back to coupons*/
+button#back-to-coupons {
+  color: #34343E !important;
+}
+
+/*Tab Settings*/
+/*background color menu active*/
+a.router-link-active.router-link-exact-active.px-4.\!py-3.block.w-full.\!text-gray-700 {
+  background-color: #CCBE80 !important;
+  color: #ffffff !important;
+}
+
+/*btn create tax, add tax*/
+button#taxes__header-btn-primary, 
+button#taxes__empty-btn-positive-action {
+background-color: #CCBE80 !important;
+border: 1px solid #34343E !important; 
+color: #34343E !important;
+}
+
+/*hover*/
+button#taxes__header-btn-primary:hover, 
+button#taxes__empty-btn-positive-action:hover {
+color: #ffffff !important;
+}
+
+/*btn preview*/
+button.hr-button.hr-button--default-type.hr-button--medium-type.hr-button--text.hr-button--xs {
+  color: #34343E !important;
+}
+
+/*btn save changes*/
+button#abandoned-cart-save,
+button#order-save-changes,
+button#fulfillment-save-changes,
+button#save-changes {
+--n-border: none !important;
+--n-shadow: none !important;
+background-color: #34343E !important;
+}
+
+/*btn add zones*/
+button#general-profile-button,
+button#save_payment_link_customization,
+.n-button.n-button--primary-type.n-button--medium-type#save,
+.n-button.n-button--primary-type.n-button--large-type#save {
+background-color: #CCBE80 !important;
+border: 1px solid #34343E !important; 
+color: #34343E !important;
+}
+
+button#general-profile-button:hover,
+button#save_payment_link_customization:hover,
+.n-button.n-button--primary-type.n-button--medium-type#save:hover,
+.n-button.n-button--primary-type.n-button--large-type#save:hover {
+  color: #ffffff !important;
+}
+
+/*Tab Integrations*/
+/*color svg checklist*/
+svg.h-4.w-4.text-white{
+stroke: #ffffff !important;  
+}
+
+/*bg checklist*/
+span.bg-apple-500.p-1.rounded-full.flex.items-center.justify-center.ring-8.ring-white {
+  background-color: #34343E !important;
+}
+
+/*btn manage payment methods*/
+button#payment-methods-btn {
+  border: 1px solid #34343E !important;
+}
+
+/*bg radio btn*/
+.hr-radio__dot.hr-radio__dot--checked {
+  background-color: #34343E !important;
+  border: none !important;
+}
+
 /*Charles - Sub Account - Payments - Stop*/
+
+/*Charles - Sub Account - Marketing - Start*/
+/*Tab Social Planner*/
+/*color txt btn*/
+button#sp-pg-landing-btn-csv,
+button#sp-pg-landing-btn-category-queue,
+button#sp-pg-landing-btn-recurring,
+button#sp-pg-landing-btn-rss,
+button#sp-cmp-social-select-btn-connect-account {
+  color: #34343E !important;
+}
+
+/*radio btn*/
+.flex.items-center.justify-center.w-5.h-5.rounded-full.dot.bg-blue-600 {
+  background-color: #CCBE80 !important;
+}
+
+/*txt step*/
+p.font-medium.text-blue-600 {
+  color: #34343E !important;
+}
+
+/*hover field*/
+.hr-upload-dragger:hover {
+  border: 1px solid #34343E !important;
+}
+
+/*btn next*/
+button#sp-cmp-csv-footer-btn-next {
+background-color: #34343E !important;
+border: none !important; 
+color: #ffffff !important;
+}
+
+/*btn continue, post*/
+button#category-queue-continue-button,
+button#sp-cmp-post-action-btn-post-options {
+background-color: #34343E !important;
+border: none !important; 
+}
+
+/*font btn back*/
+p.ui-text-md-medium,
+p.p-2.text-gray-500.ui-text-sm-regular {
+  font-family: 'Poppins', sans-serif !important;
+}
+
+/*btn create post*/
+button#create-rss-post-modal-footer-btn-positive-action {
+background-color: #34343E !important;
+border: none !important; 
+}
+
+/*Tab Snippets*/
+/*btn new snippet*/
+button#add-snippet-button,
+.hr-button.hr-button--default-type.hr-button--medium-type.hr-button--primary.hr-button--xs#save {
+background-color: #34343E !important;
+border: none !important; 
+}
+
+/*btn add attachment, add file url, send test snippet*/
+button#sms-add-attachment,
+button#sms-add-file-url,
+button#test-send-sms {
+  color: #34343E !important;
+  border: 1px solid #34343E !important;
+}
+
+/*hover field*/
+#text-snippet-name-input:hover,
+#url:hover,
+#number:hover {
+  border: 1px solid #34343E !important;
+}
+
+#text-snippet-name-input:focus,
+#url:focus,
+#number:focus {
+  border: 1px solid #34343E !important;
+}
+
+/*Charles - Sub Account - Marketing - Stop*/
 
 /*Charles - Sub Account - Opportunities - Start*/
 /*Tab Opportunities*/
