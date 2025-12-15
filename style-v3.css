@@ -1168,8 +1168,8 @@ button#btn-add-number {
 }
 
 .hr-button__content svg path {
-    stroke: #ffffff !important;
-    fill: #ffffff !important;
+    /* stroke: #ffffff !important;
+    fill: #ffffff !important; */
 }
 
 /*description title*/
