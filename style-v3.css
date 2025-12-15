@@ -522,8 +522,47 @@ button#saveTemplate:hover {
 color: #ffffff !important;
 }
 
+/*Tab Brand Brands*/
+/*btn add design kit, add brand voice,   btn save board*/
+button#pg-brand-boards-brand-kit-header-btn-primary,
+button#pg-brand-boards-list-page-templates-continue,
+button#pg-brand-boards-brand-voice-header-btn-primary,
+button#pg-brand-boards-brand-voice-list-table-empty-btn-positive-action,
+button#pg-brand-boards-header-save-template-button,
+button.hr-button.hr-button--default-type.hr-button--medium-type.hr-button--primary.hr-button--2xs,
+button#pg-brand-boards-global-settings-empty-state-add-button {
+  background-color: #34343E !important;
+  border: none !important; 
+}
+
+/*btn select*/
+button.hr-button.hr-button--tertiary-type.hr-button--large-type.ui-button {
+  color: #34343E !important;
+}
+
+/*hover btn select*/
+.ui-card:hover button.hr-button.hr-button--tertiary-type.hr-button--large-type.ui-button,
+.ui-card:hover button.ui-button {
+  background-color: #34343E !important;
+  border: none !important;
+}
 
 /*Charles - Sub Account - Marketing - Stop*/
+
+/*Charles - Sub Account - Funnels(Sites) - Start*/
+/*Tab Website*/
+/*btn new website*/
+button#create-new-button {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important;
+}
+
+/*hover btn*/
+button#create-new-button:hover {
+  color: #ffffff !important;
+}
+
+/*Charles - Sub Account - Funnels(Sites) - Stop*/
 
 /*Charles - Sub Account - Opportunities - Start*/
 /*Tab Opportunities*/
