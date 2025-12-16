@@ -562,6 +562,53 @@ button#create-new-button:hover {
   color: #ffffff !important;
 }
 
+/*Tab Forms*/
+/*btn export*/
+button#exportButton,
+button#refresh_button,
+button#m_apply {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important; 
+  color: #34343E !important;
+}
+
+/*txt color analytics*/
+.funnel-analytics-card .hl-text-md-normal {
+  color: #34343E !important;
+}
+
+/*hover btn*/
+button#exportButton:hover,
+.funnel-analytics-card .hl-text-md-normal:hover,
+button#m_apply:hover {
+  color: #ffffff !important;
+}
+
+/*svg color*/
+button[data-v-636726ba].n-button.ml-2 svg.h-5.w-5 {
+    stroke: #34343E !important;
+}
+/*hover svg*/
+button[data-v-636726ba].n-button.ml-2 svg.h-5.w-5:hover{
+    stroke: #ffffff !important;
+}
+
+/*hover text row table*/
+.n-data-table-tbody .n-data-table-tr:hover .text-gray-900 {
+    color: #ccbe80 !important;
+}
+
+/*Tab Surveys*/
+button#add-survey {
+  background-color: #CCBE80 !important;
+  border: 1px solid #34343E !important; 
+  color: #34343E !important;
+}
+
+button#add-survey:hover {
+  color: #ffffff !important;
+}
+
 /*Charles - Sub Account - Funnels(Sites) - Stop*/
 
 /*Charles - Sub Account - Opportunities - Start*/
