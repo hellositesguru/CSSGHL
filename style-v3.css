@@ -550,6 +550,174 @@ button.hr-button.hr-button--tertiary-type.hr-button--large-type.ui-button {
 /*Charles - Sub Account - Marketing - Stop*/
 
 /*Charles - Sub Account - Funnels(Sites) - Start*/
+/*Tab Funnels*/
+/*btn*/
+button#v-edit-page,
+button#add-step,
+button#share,
+button#v-edit-page-dropdown-icon,
+button#updateStep,
+button.n-button.n-button--primary-type.n-button--medium-type.mt-3,
+button#add-security-header-button,
+button#funnel-event-list-empty-btn-positive-action {
+  background-color: #CCBE80 !important;
+  --n-border: 1px solid #34343E !important; 
+  color: #34343E !important;
+}
+
+/*hover*/
+button#v-edit-page:hover,
+button#add-step:hover,
+button#updateStep:hover,
+button.n-button.n-button--primary-type.n-button--medium-type.mt-3:hover,
+button#add-security-header-button:hover,
+button#funnel-event-list-empty-btn-positive-action:hover {
+  color: #ffffff !important;
+}
+
+/*btn svg visit*/
+button#visit-funnel-url {
+  background-color: #b52029 !important;
+}
+
+/*btn svg*/
+button#clone-funnel-step,
+button#edit-page,
+button#preview-page,
+button#preview-link,
+button#funnel-url-info,
+button#funnels-stats-table-previous,
+button#funnels-stats-table-next,
+button#download-csv,
+button#add-security-header-button,
+{
+  background-color: #CCBE80 !important;
+  border: none !important; 
+  stroke: #34343E !important;
+}
+
+/*hover svg*/
+button#clone-funnel-step:hover svg,
+button#edit-page:hover svg,
+button#preview-page:hover svg,
+button#preview-link:hover svg,
+button#funnel-url-info:hover svg {
+  stroke: #ffffff !important;
+}
+
+/*border image*/
+div#funnel-page-image {
+  border-color: #CCBE80 !important;
+}
+
+/*bg control & variation*/
+.n-tag.n-tag--round.hl-info,
+.n-tag.n-tag--round.hl-default {
+  background-color: #CCBE6D14 !important;
+  --n-border: none !important;
+  color: #CCBE80 !important;
+}
+
+/*btn create variation*/
+button#create-variation {
+  background-color: #CCBE6D14 !important;
+  border: 1px solid #CCBE80 !important; 
+  color: #CCBE80 !important;
+}
+
+/* btn understand stats*/
+span.underline.text-sky-500 {
+  color: #34343E !important;
+}
+
+/*border info*/
+.n-tag.n-tag--round.hl-info.whitespace-pre-line {
+  --n-border: none !important;
+}
+
+/*menu side bar*/
+div.step-container.flex.steps.pointer.relative.active,
+div.step-container.flex.steps.pointer.relative[active-class="active"] {
+  background-color: #ffffff !important;
+}
+
+div.step-container.active svg.step-icon.stroke-2.py-5.px-4.stroke-green-500.bg-emerald-100,
+div[active-class="active"] svg.step-icon.stroke-2.py-5.px-4.stroke-green-500.bg-emerald-100 {
+  stroke: #ffffff !important;
+  background-color: #ccbe80 !important;
+}
+
+/*border bottom*/
+div#step-container.flex.steps.pointer.relative.border-green-500.border-b.bg-white {
+  border-bottom-color: #ccbe80 !important;
+}
+
+/*arrow*/
+.arrow.inline-block.w-0.h-0.border-solid.absolute.left-0.right-0.m-auto.border-x-transparent.border-b-transparent.border-t-green-500,
+.arrow.inline-block.w-0.h-0.border-solid.absolute.left-0.right-0.m-auto.border-x-transparent.border-b-transparent.border-t-blue-300 {
+  border-top-color: #ccbe80 !important;
+}
+
+div#steps-sidebar.steps-sidebar {
+  background-color: #ccbe6d14 !important;
+}
+
+svg.step-icon.stroke-2.py-5.px-4.bg-blue-100.stroke-blue-600 {
+  background-color: #ccbe6d14 !important;
+  stroke: #ccbe80 !important;
+}
+
+/*Tab Quizzes*/
+/*btn add quiz*/
+button#add-form {
+  background-color: #CCBE80 !important;
+  --n-border: 1px solid #34343E !important; 
+  color: #34343E !important;
+}
+
+/*hover*/
+button#add-form:hover {
+ color: #ffffff !important; 
+}
+
+/*Tab Chat Widget*/
+/*btn new*/
+button#pg-chat-widget-list-page-header-btn-primary {
+  background-color: #CCBE80 !important;
+  --n-border: 1px solid #34343E !important; 
+  color: #34343E !important;
+}
+
+/*hover*/
+button#pg-chat-widget-list-page-header-btn-primary:hover{
+  color: #ffffff !important;
+}
+
+/*btn save*/
+button#pg-chat-widget-header-save-button {
+    background-color: #34343E !important;
+  --n-border: none !important; 
+}
+
+/*Tab QR Codes*/
+/*btn create qr code*/
+button#create-new-qr{
+  background-color: #34343E !important;
+  --n-border: none !important; 
+}
+
+/*btn next*/
+button#nextButton {
+background-color: #CCBE80 !important;
+--n-border: 1px solid #34343E !important; 
+color: #34343E !important;
+}
+
+/*hover*/
+button#nextButton:hover {
+  color: #ffffff !important;
+}
+
 /*Tab Website*/
 /*btn new website*/
 button#create-new-button {
