@@ -549,6 +549,49 @@ button.hr-button.hr-button--tertiary-type.hr-button--large-type.ui-button {
 
 /*Charles - Sub Account - Marketing - Stop*/
 
+/*Charles - Sub Account - Media Storage - Start*/
+/*hover field dropdown modified and all*/
+.n-base-selection.n-base-selection--selected:hover {
+  --n-border: 1px solid #34343E !important;
+}
+
+/*btn upload*/
+button#hl-media-upload {
+background-color: #CCBE80 !important;
+--n-border: 1px solid #34343E !important; 
+color: #34343E !important;
+}
+
+button#hl-media-upload:hover {
+  color: #ffffff !important;
+}
+
+/*arrrow*/
+.m-5.w-5.mt-\[2px\].stroke-gray-600 {
+  stroke: #ccbe80;
+}
+
+/*btn folders*/
+button#hl-media-create-folder svg path {
+  stroke: #ccbe80;
+}
+
+/*btn dot*/
+button#media-header-dropdown svg {
+  stroke: #ccbe80;
+}
+
+/*btn trash*/
+.n-dropdown-option-body__label svg.h-4.w-4.m-5.w-5 path {
+  stroke: #ccbe80;
+}
+
+/*btn storage*/
+.n-dropdown-option-body__label .n-dropdown-option-body__prefix svg path {
+  stroke: #ccbe80;
+}
+/*Charles - Sub Account - Media Storage - Stop*/
+
 /*Charles - Sub Account - Funnels(Sites) - Start*/
 /*Tab Funnels*/
 /*btn*/
