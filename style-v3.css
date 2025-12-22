@@ -59,6 +59,187 @@ button#hl_smartlists--filter-btn:hover {
   color: #ffffff !important;
 }
 
+/*Charles - Sub Account - Conversation - Start*/
+/*Tab Conversation*/
+/*navigation*/
+nav[aria-label="Tabs"] a[aria-current="page"] {
+  color: #ccbe80 !important;
+  border-bottom: 2px solid #34343e !important;
+}
+
+nav[aria-label="Tabs"] a:not([aria-current="page"]) {
+  border-bottom: 2px solid transparent;
+}
+
+/*bg avatar*/
+.conversation-selected-v2 .avatar_img, .py-2\.5.cursor-pointer.conversation-selected-v2.messages-list--item-v2.relative .avatar_img {
+    background-color: #CCBE80 !important;
+}
+
+.avatar_img {
+    background-color: #34343E !important;
+}
+
+.avatar_img:hover {
+    background-color: #CCBE80 !important;
+}
+
+/*bg profile*/
+.items-center.justify-center.w-full.h-full.rounded-full.n-avatar {
+  background-color: #CCBE80 !important;
+}
+
+/*bg unread chat*/
+span.inline-flex.px-2\.5.py-0\.5.rounded-full.text-xs.font-medium.bg-blue-500.text-white {
+    background-color: #34343E !important;
+}
+
+/*btn send*/
+button#send-sms,
+button#schedule-later {
+  background-color: #CCBE80 !important;
+  --n-border: 1px solid #34343E !important;
+  color: #34343E !important;
+}
+
+button#schedule-later .n-button__content svg {
+  stroke: #34343E !important;
+}
+
+/*border right*/
+li.conversation-selected-v2.messages-list--item-v2.relative.py-2\.5.cursor-pointer{
+  border-right: none !important; 
+}
+
+/*date chat*/
+.btn.btn-light2 {
+    background-color: #CCBE80 !important;
+  --n-border: none !important;
+  color: #ffffff !important;
+}
+
+/*pointer*/
+div.cursor-pointer > div.bg-primary-700.h-\[7px\].w-\[7px\].rounded-full {
+  background-color: #CCBE80 !important;
+}
+
+/*add phone and email*/
+div#new-crp-contacts-add-email-icon:has(svg.w-4.h-4) svg.w-4.h-4 path {
+  stroke: #ccbe80 !important;
+}
+
+/* span avatar */
+span.n-avatar {
+  background-color: #ccbe6d1a !important;
+}
+
+/* span avatar text */
+span.n-avatar span.n-avatar__text {
+  color: #ccbe80 !important;
+}
+
+/*btn view appoinment*/
+.view-button .n-button__content {
+  color: #CCBE80 !important;
+}
+
+/*btn view invoice*/
+.col-span-1.payment-button.text-right.text-primary-700.cursor-pointer {
+  color: #CCBE80 !important;
+}
+
+/*btn fetch older message*/
+.old-message-link a {
+  color: #34343e !important;
+}
+
+/*bg chat*/
+.messages-single.--own-message .message-bubble {
+background-color: #f4f4f4 !important;
+}
+
+.w-full.leading-6.border.py-\[13px\].px-\[11px\].border-gray-200.cursor-pointer.bg-gray-custom.email-view-container.hover\:bg-gray-200.new-email-thread-view--transition {
+  background-color: #f0f0f0 !important;
+}
+
+/* SMS, WhatsApp, Email Tabs */
+/* container tab */
+.hl_wrapper--inner .nav.nav-tabs {
+  padding-bottom: 12px;
+  border-bottom: none;
+}
+
+/* tab item */
+.hl_wrapper--inner .nav.nav-tabs .nav-link {
+  padding: 8px 16px;
+  margin-bottom: 8px;
+  margin-right: 6px;
+  border-radius: 10px;
+  background: #e9e9ea;
+  color: #34343e;
+}
+
+/* hover */
+.hl_wrapper--inner .nav.nav-tabs .nav-link:hover {
+  background: #34343e;
+  color: #ffffff;
+}
+
+/* active / clicked */
+.hl_wrapper--inner .nav.nav-tabs .nav-link.active,
+.hl_wrapper--inner .nav.nav-tabs .nav-link:active {
+  background: #ccbe80;
+  color: #ffffff;
+}
+
+.hl_wrapper--inner .nav.nav-tabs .nav-link {
+  border-bottom: none !important;
+}
+
+/*btn book appointment and join*/
+button.flex.items-center.justify-center.w-full.gap-2.text-sm.font-semibold.rounded-lg.bg-primary-50.h-9.text-primary-700,
+a.flex.items-center.justify-center.gap-2 span.text-primary-700 {
+    color: #CCBE80 !important;
+}
+
+/*btn open contact new tab*/
+.rounded-full.cursor-pointer.absolute.bottom-\[0px\].text-right svg {
+  color: #ccbe80 !important;
+}
+
+/*Tab Manual Actions*/
+/*btn let's start*/
+button#manual-actions-let-start-button {
+  background-color: #34343E !important;
+}
+
+/*icon check*/
+.hr-base-select-option__check svg path {
+  fill: #34343E !important;
+}
+
+/*Tab Snippets*/
+/*btn add attachment*/
+button#email-add-attachment {
+  --n-border: #34343E !important;
+  color: #34343E !important;
+}
+
+/*Tab Trigger Links*
+/*btn add link & save*/
+button#trigger-link-save,
+button#create-trigger-link-button {
+  background-color: #34343E !important;
+  --n-border: none !important;
+}
+
+/*border btn refresh*/
+button#icon-only-lg {
+  --n-border: 1px solid #34343E !important;
+}
+
+/*Charles - Sub Account - Conversation - Stop*/
+
 /*Charles - Sub Account - Payments - Start*/
 /*Tab Invoices & Estimates*/
 /*btn new*/
