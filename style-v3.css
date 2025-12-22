@@ -2476,8 +2476,8 @@ p.w-full.max-w-sm.truncate.ui-text-sm-normal {
 }
 
 /*text pointer*/
-/* .cursor-pointer {
-  color: #45474A !important; */
+.cursor-pointer {
+  color: #45474A !important;
 }
 
 div[data-v-20244074][id*="collection"] .cursor-pointer {
