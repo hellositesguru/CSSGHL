@@ -59,6 +59,289 @@ button#hl_smartlists--filter-btn:hover {
   color: #ffffff !important;
 }
 
+/*Revision*/
+/*dashboard - svg refresh*/
+.hr-button__content-default-slot svg.h-4.w-4 path {
+  stroke: #34343E !important;
+}
+
+/*Charles - Sub Account - Setting - Knowledge Base - Start*/
+/*btn go to AI Agents*/
+button#go-to-ai-agents {
+  background-color: #34343E !important;
+  border: none !important;
+}
+
+.hr-button__content-default-slot {
+  color: #ccbe80 !important;
+}
+
+/*Charles - Sub Account - Setting - Knowledge Base - Stop*/
+
+/*Charles - Sub Account - Setting - Conversation AI - Start*/
+/*btn go to AI Agents*/
+button.inline-flex.items-center.px-6.py-3.bg-blue-600.hover\:bg-blue-700.text-white.font-medium.rounded-lg.transition-colors.duration-200 {
+  background-color: #CCBE80 !important;
+  --n-border: none !important;
+}
+/*Charles - Sub Account - Setting - Conversation AI - Stop*/
+
+/*Charles - Sub Account - Launchpad - Start*/
+/*btn*/
+* {
+  --cp-lp-btn-col: #CCBE80 !important;
+}
+
+html:root {
+  --cp-lp-btn-col: #CCBE80 !important;
+}
+
+:root {
+  --cp-lp-btn-col: #CCBE80 !important;
+}
+
+span.text-white-cs-hover {
+  color: #34343E !important;
+}
+
+/*Charles - Sub Account - Launchpad - Stop*/
+
+/*Charles - Sub Account - Contact - Start*/
+/*Tab Smart List*/
+/*icon email*/
+#hl_smartlists-main .icon.icon-email-svg.mx-2::before {
+  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 6 Pro' !important;
+  content: '\f0e0';
+  display: inline-block;
+  padding-right: 6px;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 14px;
+  color: var(--hlpt-primary-theme-color) !important;
+  margin-left: -12px;
+}
+
+i.mx-2.icon.icon-email-svg {
+  display: contents !important;
+}
+
+/*icon phone*/
+#hl_smartlists-main .icon.icon-phone-svg.mx-2::before {
+  font-family: 'Font Awesome 5 Free';
+  font-family: 'Font Awesome 6 Pro' !important;
+  content: '\f095';
+  display: inline-block;
+  padding-right: 3px;
+  vertical-align: middle;
+  font-weight: 900;
+  font-size: 14px;
+  margin-top: -3px !important;
+  color: var(--hlpt-primary-theme-color) !important;
+}
+
+i.mx-2.icon.icon-phone-svg {
+  display: contents !important;
+}
+
+/*btn top table*/
+button.btn.btn-light.btn-sm {
+  background-color: #faf8f0 !important;
+  padding: 10px !important;
+}
+
+/*table tag more*/
+.table_tag-more,.tag-more {
+  background-color: #CCBE80 !important;
+}
+
+/*header table*/
+.flex-page-bar[data-v-3d1835b6] {
+  background-color: #f1f1f1 !important;
+}
+
+/*pagination active*/
+.pagination a.active[data-v-3d1835b6] {
+  background-color: #c5c5c5 !important;
+}
+
+/*icon more*/
+i.icon.--blue.icon-settings-2 {
+    color: #34343E !important;
+}
+  
+i.icon.--blue.icon-settings-2:hover {
+ color: #ffffff !important;
+}
+
+/*btn dropdown column*/
+button#colViewButton {
+background-color: #eaeaeb !important;    
+}
+
+.hl_controls .hl_controls--right .bootstrap-select>.btn.dropdown-toggle:after {
+  color: #262626 !important;
+}
+
+/*border bottom all*/
+ul.header-ul li.active a[data-v-1de0e251] {
+  border-bottom-color: #34343E !important;
+}
+
+/*hover bg avatar*/
+tr:hover .avatar_img:first-child:hover {
+  background-color: #CCBE80 !important;
+}
+
+/*bg tags table*/
+/* HOVER ROW background */
+.table.table-sort tbody tr:hover {
+  background-color: #e5e5e5 !important;
+}
+
+.table.table-sort tbody tr:hover .avatar_img:first-child {
+  background-color: #CCBE80 !important;
+}
+
+/* default tag */
+.table.table-sort .table_tag.d-inline-block {
+  background-color: #e5e5e5 !important;
+  color: #34343E !important;
+  border-radius: 5px !important;
+}
+
+/*hover tag*/
+.table.table-sort tbody tr:hover .table_tag.d-inline-block {
+  background-color: #34343E !important;
+  color: #ffffff !important;
+}
+
+/*color side menu dropdown*/
+.text-sm.font-medium.text-gray-700.\!text-\[\#188bf6\].grow,
+.text-sm.font-medium.text-gray-700.flex-grow.\!text-\[\#188bf6\] {
+  color: #34343e !important;
+}
+
+.text-sm.font-medium.text-gray-700.\!text-\[\#188bf6\].grow:hover,
+.text-sm.font-medium.text-gray-700.flex-grow.\!text-\[\#188bf6\]:hover {
+  color: #CCBE80 !important;
+}
+
+.n-collapse-item__header-main > div.flex-auto.flex.items-center.font-medium.color-text {
+  color: #34343e !important;
+}
+
+.n-collapse-item__header-main > div.flex-auto.flex.items-center.font-medium.color-text:hover {
+  color: #CCBE80 !important;
+}
+
+/*number page*/
+a.mx-1.--blue {
+  color: #34343e !important;
+}
+
+/*icon arrow*/
+i.fa.fa-caret-left.--blue,
+i.fa.fa-caret-left.--blue::before,
+i.fa.fa-caret-right.--blue,
+i.fa.fa-caret-right.--blue::before {
+  color: #34343e !important;
+}
+
+/*icon phone*/
+i.fa.fa-phone.\!text-lg,
+i.fa.fa-phone.\!text-lg::before {
+  color: #34343e !important;
+}
+
+/*tab menu*/
+span.border-\[\#188bf6\].text-\[\#188bf6\].text-center.whitespace-nowrap.py-2\.5.px-1.border-b-2.font-medium.text-sm.capitalize.w-1\/2.cursor-pointer {
+  border-bottom-color: #34343E !important;
+}
+
+/*bg svg activity, etc.*/
+.hl_wrapper--inner .nav.nav-tabs .nav-link.active, .hl_wrapper--inner .nav.nav-tabs .nav-link:active {
+  background-color: #34343E !important;
+}
+
+/*icon phone & email*/
+div.mr-2 > svg[data-icon="phone"] path {
+  fill: #ccbe80 !important;
+}
+
+/*btn add new task*/ 
+#tasks-empty-search-result-btn-positive-action {
+  background-color: #34343E !important;
+  --n-border: none !important;
+}
+
+/*btn add note*/
+button.hr-button.hr-button--tertiary-type.hr-button--medium-type.ui-button {
+  color: #34343E !important;
+}
+
+/* text "Add Note" */
+button.hr-button.hr-button--tertiary-type.hr-button--medium-type.ui-button 
+p.font-semibold {
+  color: #34343E !important;
+}
+
+/* svg icon (path) */
+button.hr-button.hr-button--tertiary-type.hr-button--medium-type.ui-button 
+svg path {
+  stroke: #ccbe80 !important;
+}
+
+/*link here*/
+.text-center a {
+  color: #34343E !important;
+}
+
+/* text "Go to object settings" */
+button.hr-button.hr-button--tertiary-type.hr-button--medium-type.ui-button
+p.font-semibold {
+  color: #34343E !important;
+}
+
+/* svg icon (path) */
+button.hr-button.hr-button--tertiary-type.hr-button--medium-type.ui-button
+svg path {
+  stroke: #ccbe80 !important;
+}
+
+/*Tab Tasks*/
+/*btn status*/
+.quick-filter.button.active span {
+  color: #34343e !important;
+}
+
+/*color svg*/
+.quick-filter.button.active svg path {
+  stroke: #34343e !important;
+}
+
+/*btn add task, save*/
+button.n-button.n-button--primary-type.n-button--small-type,
+button#relations-drawer-component-btn-positive-action {
+  background-color: #34343E !important;
+  --n-border: none !important;
+}
+
+#list-view-sort-btn.button.active span {
+  color: #34343e !important;
+}
+
+#list-view-sort-btn.button.active svg path {
+  stroke: #34343e !important;
+}
+
+/*btn associate to*/
+/* button.hr-button--default-type .hr-button__content p {
+  color: #34343E !important;
+}
+ */
+/*Charles - Sub Account - Contact - Stop*/
+
 /*Charles - Sub Account - Conversation - Start*/
 /*Tab Conversation*/
 /*navigation*/
