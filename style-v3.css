@@ -3042,10 +3042,10 @@ button#create-btn {
 }
 
 /*btn-svg add*/
-button .hr-button__content svg.h-4.w-4 {
+/* button .hr-button__content svg.h-4.w-4 {
   fill: #CCBE80 !important;
   stroke: #CCBE80 !important;
-}
+} */
 
 /*btn create snapshot*/
 button#create-snapshot {
