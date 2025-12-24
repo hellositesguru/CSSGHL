@@ -65,6 +65,153 @@ button#hl_smartlists--filter-btn:hover {
   stroke: #34343E !important;
 }
 
+/*Charles - Sub Account - Setting - Objects - Start*/
+/*btn add custom object header*/
+button#custom-objects-header-btn-primary,
+button#manage-fields-save-btn,
+button#add-fields-button {
+  background-color: #34343E !important;
+  border: none !important;
+}
+
+/*btn add custom object*/
+button#empty-custom-objects-list-btn-primary#empty-custom-objects-list-btn-primary {
+  background-color: #faf8f0 !important;
+  color: #ccbe80 !important;
+  border: none !important;
+}
+
+button#empty-custom-objects-list-btn-primary#empty-custom-objects-list-btn-primary:hover {
+  --n-border: 1px solid #34343E !important;
+}
+
+/*bg svg*/
+.header svg.star-icon-inline {
+  background-color: #faf8f0 !important;
+}
+
+/*icon color*/
+.header svg.star-icon-inline {
+  color: #ccbe80 !important;
+}
+
+.header svg.star-icon-inline path {
+  stroke: #ccbe80 !important;
+}
+
+.header p.ccHeading.ccHeading2,
+.header p.ccHeading.ccHeading1 {
+  color: #ccbe80 !important;
+}
+
+/*color icon +*/
+.icon.icon-primary svg path {
+  stroke: #34343E !important;
+}
+
+/*btn create association*/
+button#association-header-create-new-btn-primary {
+  background-color: #34343E !important;
+  --n-border: none !important;
+}
+
+/*btn manage fields*/
+button#add-fields-button {
+  
+}
+
+/*title & desc card*/
+.flex-1:hover p.text-base.text-gray-700.font-medium.capitalize {
+  color: #ccbe80 !important;
+}
+
+.flex-1 p.m-0.text-gray-600.group-hover\:text-primary-500 {
+  color: #475467 !important;
+}
+
+/*icon card*/
+body #app #CustomObjectsSchema .bg-primary-100 {
+  background-color: #faf8f0 !important;
+}
+
+body #app #CustomObjectsSchema .text-primary-600, body #app .text-primary-700 {
+  color: #CCBE80 !important;
+}
+
+.text-primary-600.flex.items-center.justify-center.w-10.h-10.border-\[6px\].border-solid.border-primary-50.bg-primary-100.rounded-full {
+  border-color: #CCBE80 !important;
+}
+
+svg.iconify--cuida path,
+.custom-icon path {
+    fill: #ccbe80;
+}
+
+/*Charles - Sub Account - Setting - Objects - Stop*/
+
+/*Charles - Sub Account - Setting - integrations - Start*/
+/*Btn*/
+button.w-full.justify-center.my-2.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600,
+button.justify-center.w-full.mt-1.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600,
+button.w-full.justify-center.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600,
+button.justify-center.w-full.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600,
+button.w-full.justify-center.hl-btn.inline-flex.items-center.px-4.py-2.border-2.border-curious-blue-400.text-sm.font-medium.rounded.text-curious-blue-500.hover\:bg-curious-blue-100.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-500,
+button#tiktok-business-connect,
+button#linkedin-connect,
+button#connect-shopify,
+button#view-app,
+button#facebook-connect {
+  background-color: #CCBE80 !important;
+  border: none !important;
+  outline: none !important;
+  color: #ffffff !important;
+}
+
+button.w-full.justify-center.my-2.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600:hover,
+button.justify-center.w-full.mt-1.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600:hover,
+button.w-full.justify-center.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600:hover,
+button.justify-center.w-full.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.text-white.bg-curious-blue-500.hover\:bg-curious-blue-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-600:hover,
+button.w-full.justify-center.hl-btn.inline-flex.items-center.px-4.py-2.border-2.border-curious-blue-400.text-sm.font-medium.rounded.text-curious-blue-500.hover\:bg-curious-blue-100.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-curious-blue-500:hover,
+button#linkedin-connect:hover,
+button#tiktok-business-connect:hover,
+button#connect-shopify:hover,
+button#view-app:hover,
+button#facebook-connect:hover {
+  outline: none !important;
+  border: none !important;
+}
+
+button.justify-center.w-full.hl-btn.inline-flex.items-center.px-4.py-2.border-transparent.text-sm.font-medium.rounded.shadow-sm.text-red-500.bg-red-200.hover\:bg-red-300.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-red-500 {
+  background-color: #ca0000 !important;
+  border: none !important;
+  color: #ffffff !important;
+}
+
+button.justify-center.w-full.hl-btn.inline-flex.items-center.px-4.py-2.border-transparent.text-sm.font-medium.rounded.shadow-sm.text-red-500.bg-red-200.hover\:bg-red-300.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-red-500:hover {
+  outline: none !important;
+  border: none !important;
+}
+
+button.btn.btn-green-lt.btn-block {
+  background-color: #34343E !important;
+  border: none !important;
+  color: #ffffff !important;
+  font-family: 'Poppins', sans-serif !important;
+}
+
+button.btn.btn-green-lt.btn-block:hover {
+  background-color: #34343E !important;
+  border: none !important;
+}
+
+/*Border card*/
+.card-integration.border.border-danger.position-relative,
+.card-integration {
+border: 1px solid #d9d9d9 !important;
+}
+
+/*Charles - Sub Account - Setting - Integrations - Stop*/
+
 /*Charles - Sub Account - Setting - Knowledge Base - Start*/
 /*btn go to AI Agents*/
 button#go-to-ai-agents {
