@@ -1731,6 +1731,15 @@ span.ml-2.text-sm.font-medium.text-blue-600{
 button#no-apps-found-btn-positive-action, button#btn-next, button#btn-create {
   background-color: #34343E !important;
 }
+
+/*btn learn more*/
+
+
+/*svg learn more*/
+svg.text-primary-500.w-4.h-4.ml-1 {
+color: #CCBE80 !important;
+}
+
 /*hover field*/
 #name:hover,
 #name:focus-within,
