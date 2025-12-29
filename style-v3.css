@@ -2003,6 +2003,11 @@ button#refresh-button{
 --n-text-color: #ffffff !important;
 }
 
+/*svg*/
+button#refresh-button svg.w-4.h-4.mr-2 path {
+  stroke: #CCBE80 !important;
+}
+
 /*Navigation - Brand Boar*/
 /*btn add design & add brand*/
 button#pg-brand-boards-brand-kit-header-btn-primary, button#pg-brand-boards-brand-kit-header-btn-primary, button#pg-brand-boards-brand-voice-list-table-empty-btn-positive-action {
