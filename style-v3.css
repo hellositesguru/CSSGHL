@@ -1874,6 +1874,12 @@ background-color: #CCBE80 !important;
 --n-border: 1px solid #34343E !important; 
 --n-text-color: #34343E !important;
 }
+
+/*btn sample btn*/
+button#sample-cta-btn {
+  color: #34343E !important;
+}
+
 /*Charles - Navigation Setting - Stop*/
 
 /*Charles - Navigation - Sub Account - Setting - Start*/
