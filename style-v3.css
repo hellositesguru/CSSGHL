@@ -1744,7 +1744,7 @@ button#no-apps-found-btn-positive-action, button#btn-next {
 
 /*Setting - Stripe*/
 /*btn disconnect Stripe*/
-button#disconnect-stripe-button, button#refresh-btn {
+button#disconnect-stripe-button {
   background-color: #34343E !important;
 }
 /*text view*/
