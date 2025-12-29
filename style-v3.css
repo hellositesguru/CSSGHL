@@ -2656,8 +2656,12 @@ p.title.hl-display-sm-medium {
 button#header-list-btn {
   background: #CCBE80 !important;
   border: 1px solid #34343E !important;
-  --n-color: #CCBE80 !important;
+  color: #34343E !important;
   --n-border: 1px solid #34343E !important;
+}
+
+button#header-list-btn:hover {
+  color: #ffffff !important;
 }
 
 /*Calendar*/
