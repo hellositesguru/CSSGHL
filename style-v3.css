@@ -3142,7 +3142,13 @@ p.flex-grow {
 button#accept-affiliate-policy {
   background-color: #CCBE6D !important;
   border-color: #CCBE6D !important;
+  color: #34343E !important;
 }
+
+button#accept-affiliate-policy:hover {
+  color: #ffffff !important;
+}
+
 /*Charles - Navigation - Affiliate Portal - Stop*/
 
 /*Charles - Navigation - Reselling - Start*/
