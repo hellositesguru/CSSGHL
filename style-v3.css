@@ -59,11 +59,87 @@ button#hl_smartlists--filter-btn:hover {
   color: #ffffff !important;
 }
 
-/*Revision*/
+/*Revision - Start*/
 /*dashboard - svg refresh*/
 .hr-button__content-default-slot svg.h-4.w-4 path {
   stroke: #34343E !important;
 }
+
+/*Sub Accounts - svg history*/
+svg.h-6.w-6.text-blue-600.hover\:text-blue-700 {
+  stroke: #34343E !important;
+}
+
+/*Sub Accounts - svg switch*/
+svg.pointer.h-4.w-4.text-blue-700 {
+  stroke: #CCBE80 !important; 
+}
+
+/* Sub Accounts - svg btn create sub acc */
+button#header-list-btn svg.mr-2.h-5.w-5 {
+  stroke: #34343E !important;
+}
+
+/*Saas Configurator - btn add plan*/
+button#addPlans{
+  color: #34343E !important;
+}
+button#addPlans:hover {
+  color: #ffffff !important;
+}
+
+/*Saas Configurator - svg*/
+svg.h-8.w-8.border-spacing-1.text-primary-600 {
+  color: #CCBE80 !important;
+}
+
+/*Saas Configurator  - btn*/
+button#btn-customize-mail,
+button#get-started,
+button#addCancellationReason,
+button#saveCancellationSettings,
+button#addDowngradeReason,
+button#saveDowngradeSettings {
+  background-color: #CCBE80 !important;
+  --n-border: 1px solid #34343E !important;
+  color: #34343E !important;
+}
+
+button#btn-customize-mail:hover,
+button#get-started:hover,
+button#addCancellationReason:hover,
+button#saveCancellationSettings:hover,
+button#addDowngradeReason:hover,
+button#saveDowngradeSettings:hover {
+  color: #ffffff !important;
+}
+
+
+/*svg add plan*/
+button#addPlans svg.mr-2.h-4.w-4 {
+  color: #34343E !important;
+}
+
+/*Template Library - btn create template*/
+button#pg-template-library-admin_header__import_template {
+  --n-border: 1px solid #34343E !important;
+}
+
+i.hr-icon-inner.hr-icon svg path {
+  stroke: #34343e !important;
+}
+
+i.hr-icon-inner.btn-active.btn-active.hr-icon {
+  color: #34343E !important;
+}
+
+/*Setting - Billing - svg copy*/
+svg.text-primary-500.h-3.w-3.\!ml-1\.5.flex-shrink-0 {
+  color: #ccbe80 !important;
+}
+
+/*Revision - Stop*/
+
 
 /*Charles - Sub Account - Setting - Objects - Start*/
 /*btn add custom object header*/
