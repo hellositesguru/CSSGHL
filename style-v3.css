@@ -3192,7 +3192,12 @@ button#prospecting_resell_global {
   border: 0 !important;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+  color: #34343E !important;
 }
+button#prospecting_resell_global:hover {
+  color: #ffffff !important;
+}
+
 /*btn-checklist*/
 button#prospecting_opt_in_toggle {
 background-color: #34343E !important;
@@ -3209,6 +3214,11 @@ button#listings-save:focus-visible {
   outline: 0 !important;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+  color: #34343E !important;
+}
+
+button#listings-save:hover {
+  color: #ffffff !important;
 }
 
 button#listings-save:disabled {
@@ -3222,6 +3232,11 @@ button#whatsapp_resell_global {
   background-color:#CCBE80!important;
   border:0!important;
   font:14px Poppins;
+  color: #34343E !important;
+}
+
+button#whatsapp_resell_global:hover {
+  color: #ffffff !important;
 }
 
 /* Card Resell WordPress*/
@@ -3230,6 +3245,11 @@ button#btn-2 {
   background-color:#CCBE80!important;
   border:0!important;
   font:14px Poppins;
+  color: #34343E !important;
+}
+
+button#btn-2:hover {
+  color: #ffffff !important;
 }
 
 /*Card Branded Client*/
@@ -3239,6 +3259,11 @@ button#resell_global {
   border: 0 !important;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+  color: #34343E !important;
+}
+
+button#resell_global:hover {
+  color: #ffffff !important;
 }
 
 button#resell_global:disabled {
@@ -3254,6 +3279,11 @@ button#resell_global:disabled {
   border: 0 !important;
   outline: 0 !important;
   box-shadow: none !important;
+  color: #34343E !important;
+}
+
+#conversation_ai_resell_global:hover {
+  color: #ffffff !important;
 }
 
 /* tombol disabled */
@@ -3263,6 +3293,7 @@ button#resell_global:disabled {
   cursor: not-allowed;
   border: 0 !important;
   box-shadow: none !important;
+  color: #34343E !important;
 }
 
 /*Card SEO*/
@@ -3271,6 +3302,11 @@ button#seo-resell_global {
   background-color:#CCBE80!important;
   border:0!important;
   font:14px Poppins;
+  color: #34343E !important;
+}
+
+button#seo-resell_global:hover {
+  color: #ffffff !important;
 }
 
 /*btn-checklist*/
@@ -3287,6 +3323,11 @@ button#seo_opt_in_toggle {
   outline: 0 !important;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+  color: #34343E !important;
+}
+
+#workflows-save.n-button:hover {
+  color: #ffffff !important;
 }
 
 #workflows-save .n-button__border,
@@ -3308,6 +3349,11 @@ button.unsaved.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transpare
   outline: 0 !important;
   font-family: "Poppins", sans-serif;
   font-size: 14px;
+  color: #34343E !important;
+}
+
+button.unsaved.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.shadow-sm.text-white.bg-apple-500.hover\:bg-apple-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-apple-500:hover {
+  color: #ffffff !important;
 }
 
 button.unsaved.hl-btn.inline-flex.items-center.px-4.py-2.border.border-transparent.text-sm.font-medium.rounded.shadow-sm.text-white.bg-apple-500.hover\:bg-apple-600.focus\:outline-none.focus\:ring-2.focus\:ring-offset-2.focus\:ring-apple-500:disabled {
@@ -3323,9 +3369,13 @@ button#ad_manager_button-save {
   background-color:#CCBE80!important;
   border:0!important;
   font:14px Poppins;
+  color: #34343E !important;
 }
 
-/*Charles - Navigation - Reselling - Start*/
+button#ad_manager_button-save:hover {
+  color: #ffffff !important;
+}
+/*Charles - Navigation - Reselling - Stop*/
 
 /*Charles - Navigation - Account Snapshots - Start*/
 /*data table*/
