@@ -2287,6 +2287,16 @@ button#dropdown-ydzeadjak__BV_toggle_, button#dropdown-r4fbqm0me__BV_toggle_ {
  font: 14px 'Poppins' !important;
 }
 
+/*btn new report*/
+button#custom-report-btn-new-report-toggle {
+  background-color: #ccbe80 !important;
+  color: #34343E !important;
+}
+
+button#custom-report-btn-new-report-toggle {
+  color: #ffffff !important;
+}
+
 /*card title*/
 .card-header .d-flex.w-full h2.mr-0 {
  font: 18px 'Poppins' !important;
