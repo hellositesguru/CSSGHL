@@ -1804,7 +1804,7 @@ span.ml-2.text-sm.font-medium.text-blue-600{
 
 /* Setting - Private Integrations*/
 /*btn create new & next*/
-button#no-apps-found-btn-positive-action, button#btn-next, button#btn-create {
+button#no-apps-found-btn-positive-action, button#btn-next {
   background-color: #34343E !important;
 }
 
