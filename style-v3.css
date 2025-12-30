@@ -2530,9 +2530,12 @@ button#offer-list-header-btn-primary, button#offer-create-button {
 /*btn*/
 button#login__btn, button#create-group-button{
   --n-border: 1px solid #34343E !important;
-  --n-background-color: #CCBE80 !important;
   background-color: #CCBE80 !important;
-  border: 1px solid #34343E !important;
+  color: #34343E !important;
+}
+
+button#login__btn, button#create-group-button:hover{
+  color: #ffffff !important;
 }
 
 /*btn close*/
