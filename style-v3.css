@@ -2510,7 +2510,11 @@ span.n-avatar.align-center.avatarIcon.flex.justify-center.bg-primary-100.default
 /*btn create offer*/
 button#offer-list-header-btn-primary, button#offer-create-button {  
   background-color: #CCBE80 !important;
-  border: 1px solid #34343E !important;
+  --n-border: 1px solid #34343E !important;
+  color: #34343E !important;
+}
+button#offer-list-header-btn-primary, button#offer-create-button { 
+  color: #ffffff !important;  
 }
 
 /*btn action table*/
