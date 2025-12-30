@@ -2513,7 +2513,7 @@ button#offer-list-header-btn-primary, button#offer-create-button {
   --n-border: 1px solid #34343E !important;
   color: #34343E !important;
 }
-button#offer-list-header-btn-primary, button#offer-create-button { 
+button#offer-list-header-btn-primary, button#offer-create-button:hover { 
   color: #ffffff !important;  
 }
 
