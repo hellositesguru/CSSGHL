@@ -2756,6 +2756,11 @@ button#knowledge-base-settings-header-btn-primary, button#knowledge-base-modal-f
   --n-background-color: #CCBE80 !important;
   background-color: #CCBE80 !important;
   border: 1px solid #34343E !important;
+  color: #34343E !important;
+}
+
+button#knowledge-base-settings-header-btn-primary, button#knowledge-base-modal-footer-btn-positive-action {
+  color: #ffffff !important;
 }
 /*Charles - Navigation - Sub Account - AI Agents - Stop*/
 
