@@ -60,6 +60,48 @@ button#hl_smartlists--filter-btn:hover {
 }
 
 /*Revision - Start*/
+/*Reputation - btn*/
+#send-review-request-button,
+#gbm-connect-action-button,
+#drip-mode-integrate-now-button,
+#create-review-ai-agent-button {
+  background-color: #34343E !important;
+  --n-color-pressed: #34343E !important;
+  --n-color-disabled: #34343E !important;
+  --n-color-hover: #34343E !important;
+  --n-color: #34343E !important;
+  --n-color-focus: #34343E !important;
+}
+
+#empty-review-request-message-btn-positive-action,
+#edit-widget-button,
+button#empty-review-message-btn-positive-action {
+  background-color: #ccbe80 !important;
+  color: #34343E !important;
+  --n-border: 1px solid #34343E !important;
+}
+
+#empty-review-request-message-btn-positive-action:hover,
+#edit-widget-button:hover,
+button#empty-review-message-btn-positive-action:hover {
+  color: #ffffff !important;
+}
+
+/*sub account - dashboard*/
+button#location-dashboard_btn--edit-dashboard svg.w-5.h-5.stroke-white path {
+  stroke: #34343E !important;
+}
+
+/*Private Integratiosn - btn create new*/
+#btn-create.ui-button.hr-button--medium-type:not(.icon-only) {
+  background-color: #34343E !important;
+}
+
+/*Private Integratiosn - btn learn more*/
+.private-integration-inter{
+  color: #34343E !important;
+}
+
 /*dashboard - svg refresh*/
 .hr-button__content-default-slot svg.h-4.w-4 path {
   stroke: #34343E !important;
