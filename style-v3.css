@@ -2939,7 +2939,6 @@ button.hl-btn.inline-flex.items-center.px-4.py-2.border.border-gray-300.shadow-s
   --n-border-hover: 1px solid #CCBE80 !important;  
   background-color: #CCBE80 !important;
   border: 1px solid #CCBE80 !important;
-  color: white !important;
 }
 
 /*btn close*/
