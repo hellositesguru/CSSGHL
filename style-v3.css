@@ -2555,12 +2555,8 @@ button#save-group__btn {
 }
 
 /*Sub menu - Branded mobile app*/
-button#primary-blue {
-  --n-border: 1px solid #34343E !important;
-  --n-background-color: #34343E !important;
+button#book-a-call {
   background-color: #34343E !important;
-  border: 1px solid #34343E !important;
-  color: white !important!;
 }
 
 /*hover card*/
@@ -2584,18 +2580,25 @@ label.hr-radio-button.hr-radio-button--checked .hr-radio__label {
 /*Tab credentials*/
 button#certificates-list-header-dropdown-btn-primary {
   --n-border: 1px solid #34343E !important;
-  --n-background-color: #CCBE80 !important;
   background-color: #CCBE80 !important;
   border: 1px solid #34343E !important;
+  color: #34343E !important;
+}
 
+button#certificates-list-header-dropdown-btn-primary:hover {
+  color: #ffffff !important;
 }
 
 /*Tab Gokollab Marketplace*/
 button#gokollab-activation-create-group-button {
   --n-border: 1px solid #34343E !important;
-  --n-background-color: #CCBE80 !important;
   background-color: #CCBE80 !important;
   border: 1px solid #34343E !important;
+  color: #34343E !important;
+}
+
+button#gokollab-activation-create-group-button:hover {
+  color: #ffffff !important;
 }
 
 /*Charles - Navigation - Sub Account - Memberships - Stop*/
