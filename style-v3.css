@@ -2240,12 +2240,12 @@ p.text-gray-600.ui-text-sm-regular, p.break-all.text-gray-500.ui-text-md-normal 
 }
 
 /*btn save*/
-button#PendoButton\.SAVE {
+div button#PendoButton\.SAVE {
   --n-border: 1px solid #34343E !important;
   --n-background-color: #34343E !important;
   background-color: #34343E !important;
   border: 1px solid #34343E !important;
-  color: white !important!;
+  color: #ffffff !important;
 }
 
 /*checked*/
