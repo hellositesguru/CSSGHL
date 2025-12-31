@@ -2143,7 +2143,8 @@ button#pg-brand-boards-brand-kit-header-btn-primary, button#pg-brand-boards-bran
 /*btn connect a domain*/
 button#domains-btn-primary,
 button#enable-domain-purchase-modal-btn,
-button#purchase-domain, button#redirect-header-btn-primary {
+button#purchase-domain, button#redirect-header-btn-primary,
+button#redirect-list-empty-btn-positive-action {
   --n-border: 1px solid #34343E !important;
   --n-background-color: #CCBE80 !important;
   background-color: #CCBE80 !important;
@@ -2154,7 +2155,8 @@ button#purchase-domain, button#redirect-header-btn-primary {
 button#domains-btn-primary:hover,
 button#enable-domain-purchase-modal-btn:hover,
 button#purchase-domain:hover, 
-button#redirect-header-btn-primary:hover {
+button#redirect-header-btn-primary:hover,
+button#redirect-list-empty-btn-positive-action:hover {
   background-color: #CCBE80 !important; 
   color: white !important;
 }
