@@ -2448,6 +2448,7 @@ p.text-gray-900.hl-display-sm-medium {
 /*data table*/
 .n-data-table-th__title, .flex.items-center div {
    font-size: 12px !important;
+   color: #ffffff !important;
 }
 p.hl-text-sm-normal, td.n-data-table-td.n-data-table-td--left-align {
   font-family: 'Poppins' !important;
