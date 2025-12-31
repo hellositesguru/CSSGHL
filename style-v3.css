@@ -3102,10 +3102,11 @@ div.n-radio__dot.n-radio__dot--checked::before {
 }
 
 /*btn save*/
-button#btn-1 {
+button#btn-1,
+button#primary-blue {
   --n-border: 1px solid #34343E !important;
-  --n-background-color: #CCBE80 !important;
-  background-color: #CCBE80 !important;
+  --n-background-color: #34343E !important;
+  background-color: #34343E !important;
   border: 1px solid #34343E !important;
 }
 
