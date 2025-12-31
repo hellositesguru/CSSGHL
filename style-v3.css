@@ -60,6 +60,16 @@ button#hl_smartlists--filter-btn:hover {
 }
 
 /*Revision - Start*/
+/*Memberships - btn save */
+button#gokollab-activation-save-button {
+background-color: #CCBE80 !important;
+--n-border: 1px solid #34343E !important;
+color: #34343E !important;
+}
+button#gokollab-activation-save-button:hover {
+color: #ffffff !important;
+}
+
 /*header table memberships*/
 span.offer-table-header{
   color: #ffffff !important;
