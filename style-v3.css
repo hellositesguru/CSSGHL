@@ -60,6 +60,16 @@ button#hl_smartlists--filter-btn:hover {
 }
 
 /*Revision - Start*/
+/*calendars & automation - btn header*/
+.bg-primary-50.flex.flex-row.gap-2.rounded-3xl.py-\[4px\].pl-\[12px\].pr-\[5px\].cursor-pointer.items-center.right-\[20px\].shadow-sm {
+  border: 1px solid  
+}
+
+.flex.flex-row.gap-2.bg-primary-600.text-white.px-2.rounded-2xl.py-\[2px\].items-center.text-\[12px\].font-semibold {
+  background-color: #CCBE80 !important;
+  color: #34343E !important;
+}
+
 /*Funnels - header table*/
 thead[data-n-id="69d6cfc2"] .n-data-table-th__title {
   color: #ffffff !important;
