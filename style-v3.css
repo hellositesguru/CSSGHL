@@ -2071,8 +2071,9 @@ button#add-folder-button {
 /*btn custom value*/
 button#add-custom-value-button,
 button#confirm-edit-custom-value,
-button#confirm-add-folder {
-  --n-color: #34343E !important;
+button#confirm-add-folder,
+button#add-folder-empty-default {
+--n-color: #34343E !important;
 --n-border: 1px solid #34343E !important; 
 --n-text-color: #ffffff !important;
 }
