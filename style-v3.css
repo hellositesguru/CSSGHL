@@ -1492,13 +1492,18 @@ button#nextButton:hover {
 
 /*Tab Website*/
 /*btn new website*/
-button#create-new-button {
+button#create-new-button,
+button#build-store-btn,
+button#funnel-list-empty-btn-positive-action {
   background-color: #CCBE80 !important;
   border: 1px solid #34343E !important;
+  color: #34343E !important;
 }
 
 /*hover btn*/
-button#create-new-button:hover {
+button#create-new-button:hover,
+button#build-store-btn:hover,
+button#funnel-list-empty-btn-positive-action:hover {
   color: #ffffff !important;
 }
 
