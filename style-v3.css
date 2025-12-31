@@ -60,6 +60,19 @@ button#hl_smartlists--filter-btn:hover {
 }
 
 /*Revision - Start*/
+/*header table memberships*/
+span.offer-table-header{
+  color: #ffffff !important;
+}
+
+/*tab menu phone number*/ 
+.hl_affiliate--nav li.--active > a {
+  color: #34343E !important;
+  border-bottom: 2px solid #ccbe80 !important;
+  display: inline-block;
+  padding-bottom: 8px;
+}
+
 /*Reputation - btn*/
 #send-review-request-button,
 #gbm-connect-action-button,
