@@ -60,6 +60,43 @@ button#hl_smartlists--filter-btn:hover {
 }
 
 /*Revision - Start*/
+/*switch account*/
+.sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2 .hl_v2-location_switcher #switcher-agency-switch svg rect {
+  fill: #CCBE80 !important;
+}
+
+body[data-theme=default] .sidebar-v2-location #sidebar-v2 #location-switcher-sidbar-v2 .hl_v2-location_switcher .hl_account.active, body[data-theme=default] .sidebar-v2-agency #sidebar-v2 #location-switcher-sidbar-v2 .hl_v2-location_switcher .hl_account.active,
+input.focus\:ring-curious-blue-500.focus\:border-curious-blue-500.block.w-full.pl-10.sm\:text-sm.border-gray-300.rounded-md {
+  border: 1.5px solid #34343E !important;
+}
+
+/*payments - bg rounded*/
+.bg-primary-600.text-white.px-2.rounded-2xl.py-\[2px\].items-center.font-semibold.text-\[12px\]{
+  background-color: #CCBE80 !important;
+  color: #34343E !important;
+}
+
+/*Btn - AI Agents*/
+/*btn create bot*/
+button#create-bot-button span.text-white.font-semibold.text-sm {
+  color: #34343E !important;
+}
+
+button#create-bot-button span.text-white.font-semibold.text-sm:hover {
+  color: #ffffff !important;
+}
+
+/*btn enable outbond*/
+button#outbound-calls-btn {
+   background-color: #CCBE80 !important;
+--n-border: 1px solid #34343E !important;
+color: #34343E !important;
+}
+
+button#outbound-calls-btn:hover {
+color: #ffffff !important;
+}
+
 /*calendars & automation - btn header*/
 .bg-primary-50.flex.flex-row.gap-2.rounded-3xl.py-\[4px\].pl-\[12px\].pr-\[5px\].cursor-pointer.items-center.right-\[20px\].shadow-sm {
   border: 1px solid  
@@ -71,7 +108,7 @@ button#hl_smartlists--filter-btn:hover {
 }
 
 /*Funnels - header table*/
-thead[data-n-id="69d6cfc2"] .n-data-table-th__title {
+thead[data-n-id="dc7a1a92"] .n-data-table-th__title {
   color: #ffffff !important;
 } 
 
@@ -2019,6 +2056,11 @@ button#save-setting{
   --n-background-color: #CCBE80 !important;
   background-color: #CCBE80 !important;
   border: 1px solid #34343E !important;
+  color: #34343E !important;
+}
+
+button#save-setting:hover {
+  color: #ffffff !important;
 }
 
 /*svg copy*/
@@ -2381,7 +2423,7 @@ button#custom-report-btn-new-report-toggle {
   color: #34343E !important;
 }
 
-button#custom-report-btn-new-report-toggle {
+button#custom-report-btn-new-report-toggle:hover {
   color: #ffffff !important;
 }
 
@@ -2847,7 +2889,8 @@ button#knowledge-base-settings-header-btn-primary, button#knowledge-base-modal-f
   color: #34343E !important;
 }
 
-button#knowledge-base-settings-header-btn-primary, button#knowledge-base-modal-footer-btn-positive-action {
+button#knowledge-base-settings-header-btn-primary:hover,
+button#knowledge-base-modal-footer-btn-positive-action:hover {
   color: #ffffff !important;
 }
 /*Charles - Navigation - Sub Account - AI Agents - Stop*/
@@ -3143,8 +3186,7 @@ div.n-radio__dot.n-radio__dot--checked::before {
 button#btn-1,
 button#primary-blue {
   --n-border: 1px solid #34343E !important;
-  --n-background-color: #34343E !important;
-  background-color: #34343E !important;
+  background-color: #CCBE80 !important;
   border: 1px solid #34343E !important;
 }
 
@@ -4585,4 +4627,3 @@ div#quickActions img{
   display:none;
 }
 /* End CSS */
-
